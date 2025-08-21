@@ -1,5 +1,5 @@
 ---
-tpagetitle: "Presentación: Justicia espacial - Mafe"
+pagetitle: "Presentación COES-OBDE: Justicia espacial - Mafe"
 author: "María Fernanda Núñez"
 knitr:
   opts_chunk: 
