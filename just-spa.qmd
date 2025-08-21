@@ -68,15 +68,18 @@ editor:
 
 :::: columns
 
-::: {.column width="30%"}
+::: {.column width="40%"}
 Justicia Espacial (Soja, 2010)
 
-> definición 
+::: {.content style="font-size: 69%;"}
+> Corresponde a una **conceptualización de la espacialidad de la (in)justicia**, en tanto permite **atender los efectos sociales de los procesos espaciales**; discursos sobre justicia territorial, el derecho a la ciudad, la geografía de la justicia social y la urbanización de la injusticia son relevantes para entender esta idea. 
+
+:::
 
 Escalas de la justicia (Fraser, 2008)
 :::
 
-::: {.column width="70%"}
+::: {.column width="60%"}
 ![](img/bib.png)
 :::
 
@@ -85,10 +88,15 @@ Escalas de la justicia (Fraser, 2008)
 
 ## [**Desigualdad**]{.black} {data-background-color="#AEB7BF"}
 
+<span style="color: #BF382C;"><strong>Vínculo justicia espacial y desigualdad</strong></span
+<br> 
+<br>
+
+> El punto clave de estas observaciones ontológicas y teóricas es que el desarrollo geográficamente desigual, sea cual sea su origen, es un factor que contribuye a la creación y el mantenimiento de las desigualdades individuales y sociales y, por tanto, de las injusticias sociales y espaciales (...) Las geografías que hemos producido siempre tendrán injusticias espaciales y desigualdades distributivas (Soja, 2010, p. 72).
+
 ::: {.incremental .highlight-last style="font-size: 100%;"}
-- Desigualdad *en Chile*
-- Desigualdad ***socioespacial***
-- Intersección de las desigualdades 
+- El **caso chileno**: un ejemplo de alta desigualdad y su legitimidad.
+- La desigualdad tiene distintas expresiones, pero una agenda creciente tiene que ver con estudios de **desigualdad socioespacial**.
 :::
 
 # [*¿Empíricamente?*]{.white} {data-background-color="#44322F"}
@@ -105,44 +113,37 @@ Escalas de la justicia (Fraser, 2008)
 <br>  {data-background-color="#AEB7BF"}
 
 ::: {.incremental .highlight-last style="font-size: 100%;"}
-- Hablaremos de <span style="color: #BF382C;"><strong>**sensación de (in)justicia espacial**</strong></span
+- Hablaremos de <span style="color: #BF382C;"><strong>**sensación de (in)justicia espacial**.</strong></span
 <br>
-- Medir a través de las **percepciones** de los sujetos
+- Medir a través de las **percepciones** de los sujetos.
 - Evaluar una operacionalización que permita identificar el conjunto de percepciones vinculadas con las **preocupaciones materiales, simbólicas y politicas, junto a las condiciones objetivas que afectan el espacio urbano** en el que residen los sujetos. 
 :::
 
 ## [**Datos**]{.black} {data-background-color="#AEB7BF"}
 
 ::: {.incremental .highlight-last style="font-size: 100%;"}
-- ELSOC 
-- N
-- Variables 
+- ELSOC 2022 (N=2730) y 2023 (N=2726)
+- Variables de los módulos:
+    - **Territorio** - Dimensión Reconocimiento
+    - **Ciudadanía y Democracia** - Dimensión Participación
+    - **Desigualdad y Legitimidad** - Dimensión Redistribución
 :::
 
 ## [Indicadores: <span style="color: #BF382C;"><strong>**Reconocimiento**</strong></span
 <br> ]{.black} {data-background-color="#AEB7BF"}
 
-```{r}
+![](img/rec.png)
 
-```
-
-La gente se siene integrada en su barrio 
 
 ## [Indicadores: <span style="color: #BF382C;"><strong>**Participación**</strong></span
 <br> ]{.black}{data-background-color="#AEB7BF"}
 
-```{r}
-
-```
-
-No confía en las juntas vecinos 
+![](img/part.png)
 
 ## [Indicadores: <span style="color: #BF382C;"><strong>**Redistribución**</strong></span
 <br> ]{.black}{data-background-color="#AEB7BF"}
 
-```{r}
-
-```
+![](img/red.png)
 
 
 
@@ -157,9 +158,9 @@ No confía en las juntas vecinos
 ### <span style="color: #BF382C;"><strong>Próximamente </strong></span
 <br>  
 
-- Evaluar más datos
-- Probar efectos por dimensión 
-- Análisis de los factores 
+- Evaluar **más datos**.
+- Probar efectos por **dimensión**. 
+- Análisis de los **factores**. 
 :::
 
 # [**¡Gracias por su atención!**]{.black} {data-background-color="#BF382C"}
