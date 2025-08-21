@@ -37,10 +37,8 @@ editor:
 ------------------------------------------------------------------------
 
 [María Fernanda Núñez]{.black}  
-[Departamento de Sociología, Universidad de Chile]{.black}  
-
-[**VI Jornada de Investigadoras/es Jóvenes COES - Observatorio de Desigualdades**]{.black}
-
+[Departamento de Sociología, Universidad de Chile]{.black}  <br>
+[**VI Jornada de Investigadoras/es Jóvenes COES - Observatorio de Desigualdades**]{.black} <br>
 [22 Agosto 2025, Chile]{.black}
 :::
 ::::
@@ -85,34 +83,42 @@ Escalas de la justicia (Fraser, 2008)
 
 ## [**Desigualdad**]{.black} {data-background-color="#AEB7BF"}
 
+::: {.incremental .highlight-last style="font-size: 100%;"}
 - Desigualdad *en Chile*
 - Desigualdad ***socioespacial***
 - Intersección de las desigualdades 
-
+:::
 
 # [*¿Empíricamente?*]{.white} {data-background-color="#44322F"}
 
-## [Operacionalización]{.black} {data-background-color="#AEB7BF"}
+## {data-background-color="#AEB7BF"}
 
 
 ![](img/operacionalizacion.png)
 
-# [Este estudio: *¿cómo podemos medir la justicia espacial con datos secundarios?*]{.white} {data-background-color="#44322F"} 
+# [Este estudio: <br> <span style="color: #BF382C;"><strong>***¿cómo podemos medir la justicia espacial con datos secundarios?***</strong></span
+<br>]{.white} {data-background-color="#44322F"} 
 
-## [**Percepciones**]{.white} {data-background-color="#AEB7BF"}
+## <span style="color: #BF382C;"><strong>Percepciones </strong></span
+<br>  {data-background-color="#AEB7BF"}
 
-- Hablaremos de ***sensación de (in)justicia espacial***
+::: {.incremental .highlight-last style="font-size: 100%;"}
+- Hablaremos de <span style="color: #BF382C;"><strong>**sensación de (in)justicia espacial**</strong></span
+<br>
 - Medir a través de las **percepciones** de los sujetos
-- Evaluar una operacionalización que permita identificar el *conjunto de percepciones vinculadas con las **preocupaciones materiales, simbólicas y politicas, junto a las condiciones objetivas que afectan el espacio urbano** en el que residen los sujetos*. 
+- Evaluar una operacionalización que permita identificar el conjunto de percepciones vinculadas con las **preocupaciones materiales, simbólicas y politicas, junto a las condiciones objetivas que afectan el espacio urbano** en el que residen los sujetos. 
+:::
 
+## [**Datos**]{.black} {data-background-color="#AEB7BF"}
 
-## [Datos]{.black} {data-background-color="#AEB7BF"}
-
+::: {.incremental .highlight-last style="font-size: 100%;"}
 - ELSOC 
 - N
 - Variables 
+:::
 
-## [Indicadores: **Reconocimiento**]{.black} {data-background-color="#AEB7BF"}
+## [Indicadores: <span style="color: #BF382C;"><strong>**Reconocimiento**</strong></span
+<br> ]{.black} {data-background-color="#AEB7BF"}
 
 ```{r}
 
@@ -120,7 +126,8 @@ Escalas de la justicia (Fraser, 2008)
 
 La gente se siene integrada en su barrio 
 
-## [Indicadores: **Participación**]{.black}{data-background-color="#AEB7BF"}
+## [Indicadores: <span style="color: #BF382C;"><strong>**Participación**</strong></span
+<br> ]{.black}{data-background-color="#AEB7BF"}
 
 ```{r}
 
@@ -128,7 +135,8 @@ La gente se siene integrada en su barrio
 
 No confía en las juntas vecinos 
 
-## [Indicadores: **Redistribución**]{.black}{data-background-color="#AEB7BF"}
+## [Indicadores: <span style="color: #BF382C;"><strong>**Redistribución**</strong></span
+<br> ]{.black}{data-background-color="#AEB7BF"}
 
 ```{r}
 
@@ -136,17 +144,21 @@ No confía en las juntas vecinos
 
 
 
-## <span style="color: #BF382C;"><strong>Limitaciones </strong></span
-<br> {data-background-color="#AEB7BF"}
+## {data-background-color="#AEB7BF"}
 
-- los datos secundarios no son suficientes para proponer un indicador, se necesitan **instrumentos** que se enfoquen en la medición de la justicia espacial.
+::: {.incremental .highlight-last style="font-size: 100%;"}
+### <span style="color: #BF382C;"><strong>Limitaciones </strong></span
+<br> 
 
-## <span style="color: #BF382C;"><strong>Proximámente </strong></span
-<br>  {data-background-color="#AEB7BF"}
+- Los datos secundarios no son suficientes para proponer un indicador, se necesitan **instrumentos** que se enfoquen en la medición de la justicia espacial.
+
+### <span style="color: #BF382C;"><strong>Próximamente </strong></span
+<br>  
 
 - Evaluar más datos
 - Probar efectos por dimensión 
 - Análisis de los factores 
+:::
 
 # [**¡Gracias por su atención!**]{.black} {data-background-color="#BF382C"}
 
