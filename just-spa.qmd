@@ -56,10 +56,8 @@ editor:
 
 
 ## <span style="color: #44322F;"><strong>Contexto </strong></span
-<br>{data-background-color="#AEB7BF"}
+<br>{background-image="img/contexto1.png" background-size="cover" background-position="center"}
 
-
-![](img/contexto1.png){width=200%}
 
 
 # [Antecedentes]{.white} {data-background-color="#44322F"}
@@ -101,10 +99,10 @@ Escalas de la justicia (Fraser, 2008)
 
 # [*¿Empíricamente?*]{.white} {data-background-color="#44322F"}
 
-## {data-background-color="#AEB7BF"}
+
+## {background-image="img/operacionalizacion.png" background-size="contain" background-position="center" data-background-color="#AEB7BF"}
 
 
-![](img/operacionalizacion.png)
 
 # [Este estudio: <br> <span style="color: #BF382C;"><strong>***¿cómo podemos medir la justicia espacial con datos secundarios?***</strong></span
 <br>]{.white} {data-background-color="#44322F"} 
