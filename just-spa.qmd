@@ -56,7 +56,7 @@ editor:
 
 
 ## <span style="color: #44322F;"><strong>Contexto </strong></span
-<br>{background-image="img/contexto1.png" background-size="cover" background-position="center"}
+<br>{background-image="img/contexto1.png" background-size="contain" background-position="center" data-background-color="#AEB7BF"}
 
 
 
