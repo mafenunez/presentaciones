@@ -1,0 +1,118 @@
+---
+pagetitle: "Presentación Texto Clase 3"
+author: "María Fernanda Núñez"
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+      
+format: 
+  revealjs:
+    #logo: images/Imagen2.png
+    #footer: <img src='coes2.png' alt='Logo' style='height:100px;'>
+    slide-number: true
+    theme: [pp.scss]
+    title-slide-attributes:
+      visibility: false
+    transition: slide
+    transition-speed: slow
+#      data-background-image: images/portada.jpg
+#      data-background-size: cover
+    auto-play-media: true
+
+
+editor:
+  render-on-save: true
+---
+
+## {data-background-color="#AEB7BF"}
+
+
+:::: {.columns .v-center-container}
+::: {.column width=5%}
+:::
+::: {.column width=95%}
+## [**The Slow and Reluctant Development of Social Citizenship, Filgueira, Arza & Blofield, (2023)**]{.black}
+
+------------------------------------------------------------------------
+
+[María Fernanda Núñez]{.black}  
+[Departamento de Sociología, Universidad de Chile]{.black}  <br>
+[**Electivo**]{.black} <br>
+[05 septiembre  2025, Chile]{.black}
+:::
+::::
+
+## [***Vínculo con la clase***]{.black}
+
+[**Clase 3**: Transformaciones institucionales II,
+*evolución de las políticas públicas en América Latina y Chile*]{.orange} 
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+ 
+- hemos visto: ...
+- ahora, se observará...evolución en el periodo: 
+:::
+
+## [**Claves del texto**]{.black} 
+
+Objetivo: 
+
+- Situar los modelos de política de protección social de la región en su contexto histórico, político y social 
+- Comprender la configuración de las funciones y capacidades del Estado para proporcionar bienestar social.
+
+## [**Claves del texto**]{.black} 
+
+Así, el texto contempla estas ideas base: 
+
+- **Ciudadanía social**:
+- **Modelos de Estado de bienestar latinomaricano**: 4 etapas
+- Construcción del **Estado latinoamericano**: 4 etapas
+- Evolución de ideas referentes a: 
+  - **capacidades y herramientas de gestión del Estado** para garantizar la aplicación efectiva de la inversión social y la seguridad de los ingresos
+  - **grado de aislamiento de la gestión publica** respecto a las fuerzas politicas y la medida en que los Estados deben proporcionar por sí mismos o, por el contrario, dejar que los actores y la lógica del mercado entren en la política social a través de la privatización, la subcontratación y la competencia 
+
+
+## [**Claves del texto**]{.black} 
+
+> qué tanto interviene el mercado y de qué protección social estamos hablando en cada periodo 
+
+
+
+# [**Políticas sociales**]{.black} {data-background-color="#AEB7BF"}
+
+##  {data-background-color="#AEB7BF"}
+
+![](img/esquemapp.png)
+
+## [Políticas sociales del **modelo liberal orientado a la exportación** ()]{.black}
+
+- la salud pública y la educación como motores fundamentales del estado del bienestar.
+
+## [Políticas sociales del **modelo de sustitución de importaciones** ()]{.black}
+
+- ciudadanía social regulada y basada en el empleo.
+
+
+## [*Reformas* en el **nuevo período liberal de exportación**]{.black}
+
+- mercantilización, descentralización y focalización
+
+
+## [Políticas sociales del **nuevo modelo exportador estatista**]{.black}
+
+- prestaciones no contributivas y mayor cobertura de las personas y los riesgos sociales.
+
+- ha combinado crietrios de NECESIDAD, CONTRIBUCIÓN y CIUDADANIA
+
+
+
+## [**Discusión**]{.white} {data-background-color="#44322F"}
+
+¿la ciudadanía social...? 
+ 
+Si retomamos discusiones del curso de Teoría de la Modernización, ¿en que rol debe quedar el mercado cuando hablamos o planificamos una política social en latinoamerica?
+
+
