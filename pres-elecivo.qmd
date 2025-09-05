@@ -39,45 +39,50 @@ editor:
 ------------------------------------------------------------------------
 
 [María Fernanda Núñez]{.black}  
-[Departamento de Sociología, Universidad de Chile]{.black}  <br>
-[**Electivo**]{.black} <br>
+<br>
+[**Electivo: Formulación y Evaluación de Políticas Publicas II**]{.black} <br>
 [05 septiembre  2025, Chile]{.black}
 :::
 ::::
 
-## [***Vínculo con la clase***]{.black}
+# [**Clase 3**: Transformaciones institucionales II. *Evolución de las políticas públicas en América Latina y Chile*]{.orange} 
 
-[**Clase 3**: Transformaciones institucionales II,
-*evolución de las políticas públicas en América Latina y Chile*]{.orange} 
 
-::: {.incremental .highlight-last style="font-size: 100%;"}
- 
-- hemos visto: ...
-- ahora, se observará...evolución en el periodo: 
-:::
+## [**Objetivo del texto**]{.black} 
 
-## [**Claves del texto**]{.black} 
 
-Objetivo: 
-
-- Situar los modelos de política de protección social de la región en su contexto histórico, político y social 
+- Situar los modelos de política de protección social de la región en su contexto histórico, político y social. 
 - Comprender la configuración de las funciones y capacidades del Estado para proporcionar bienestar social.
 
-## [**Claves del texto**]{.black} 
+## [**Ideas base: Ciudadanía social**]{.black} 
 
-Así, el texto contempla estas ideas base: 
+Refiere a un **modo de protección social e inversión** que representa el extremo superior de los estados de bienestar empíricos y los regímenes de bienestar. 
 
-- **Ciudadanía social**:
-- **Modelos de Estado de bienestar latinomaricano**: 4 etapas
-- Construcción del **Estado latinoamericano**: 4 etapas
+Caracterizado por:
+
+- Alta desmercantilización.
+- Fuerte redistribución.
+- Elegibilidad basada en la ciudadanía (en lugar de la necesidad o el mérito). 
+- Una amplia gama de riesgos cubiertos.
+
+## 
+
+- **Modelos de Estado de bienestar latinomaricano**: 4 etapas.
+- Construcción del **Estado latinoamericano**: 4 etapas.
 - Evolución de ideas referentes a: 
-  - **capacidades y herramientas de gestión del Estado** para garantizar la aplicación efectiva de la inversión social y la seguridad de los ingresos
-  - **grado de aislamiento de la gestión publica** respecto a las fuerzas politicas y la medida en que los Estados deben proporcionar por sí mismos o, por el contrario, dejar que los actores y la lógica del mercado entren en la política social a través de la privatización, la subcontratación y la competencia 
+  - **Capacidades y herramientas de gestión del Estado** para garantizar la aplicación efectiva de la inversión social y la seguridad de los ingresos.
+  - **Grado de aislamiento de la gestión publica** respecto a las fuerzas politicas y la medida en que los Estados deben proporcionar por sí mismos o, por el contrario, dejar que los actores y la lógica del mercado entren en la política social a través de la privatización, la subcontratación y la competencia. 
 
 
-## [**Claves del texto**]{.black} 
+## [**Clave del texto**]{.black} 
 
-> qué tanto interviene el mercado y de qué protección social estamos hablando en cada periodo 
+
+Evolución del estado de bienestar latinoamericano en cuanto a su construcción de un ***modelo de ciudadanía social***.
+
+Esto se concreta en: 
+
+- El nivel de **intervención del mercado**. 
+- El nivel y sujetos de la **protección social** en cada periodo. 
 
 
 
@@ -85,7 +90,13 @@ Así, el texto contempla estas ideas base:
 
 ##  {data-background-color="#AEB7BF"}
 
-![](img/esquemapp.png)
+| Modelo  |  Estado |  Ciudadanía social |  Gestión del Estado |  Gestión pública |
+|--------------|--------------:|:------------:|:------------:|--------------|
+|**Liberal - Exportación**  | Mínimo    | $-$   | Salud pública y educación primaria  | Aportes de la inglesia - caridad   |
+| **Sustitución de importaciones**   | Focalizado    | $-$   | Empleo formal y contribuciones   | Estatal   |
+| **Nuevo periodo Liberal - Exportación** | Neoliberal    | $-$   | Privatización, descentralización y focalización  | Mercantilización de la ayuda estatal   |
+| **Exportador - Estatista**  |   d  | $+$   | Ampliación de coberturas y nuevos derechos   | Estatal - mercantil  |
+
 
 ## [Políticas sociales del **modelo liberal orientado a la exportación** ()]{.black}
 
@@ -103,16 +114,27 @@ Así, el texto contempla estas ideas base:
 
 ## [Políticas sociales del **nuevo modelo exportador estatista**]{.black}
 
-- prestaciones no contributivas y mayor cobertura de las personas y los riesgos sociales.
 
-- ha combinado crietrios de NECESIDAD, CONTRIBUCIÓN y CIUDADANIA
+- Combina criterios de **necesidad**, **contribución** y **ciudadanía**.
+
+- Prestaciones no contributivas. 
+
+- Mayor cobertura de las personas y los riesgos sociales.
+  - en al menos cinco ámbitos: 
+    - Prestaciones de jubilación para las personas mayores;
+    - Transferencias monetarias a familias con hijos;
+    - Acceso a servicios de salud y seguros
+    - Oferta educativa y rangos de edad cubiertos; 
+    - Protección de los trabajadores. 
+
+
 
 
 
 ## [**Discusión**]{.white} {data-background-color="#44322F"}
 
-¿la ciudadanía social...? 
- 
-Si retomamos discusiones del curso de Teoría de la Modernización, ¿en que rol debe quedar el mercado cuando hablamos o planificamos una política social en latinoamerica?
+- ¿Cómo se expresa en Chile un modelo de ciudadanía social? 
+
+- Para llevar a cabo un modo de ciudadanía social, ¿en qué rol debe quedar el mercado?
 
 
