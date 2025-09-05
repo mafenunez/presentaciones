@@ -95,24 +95,40 @@ Esto se concreta en:
 |**Liberal - Exportación**  | Mínimo    | $-$   | Salud pública y educación primaria  | Aportes de la inglesia - caridad   |
 | **Sustitución de importaciones**   | Focalizado    | $-$   | Empleo formal y contribuciones   | Estatal   |
 | **Nuevo periodo Liberal - Exportación** | Neoliberal    | $-$   | Privatización, descentralización y focalización  | Mercantilización de la ayuda estatal   |
-| **Exportador - Estatista**  |   d  | $+$   | Ampliación de coberturas y nuevos derechos   | Estatal - mercantil  |
+| **Exportador - Estatista**  |   ?  | $+$   | Ampliación de coberturas y nuevos derechos   | Estatal - mercantil  |
 
 
-## [Políticas sociales del **modelo liberal orientado a la exportación** ()]{.black}
+## [Políticas sociales del **modelo liberal orientado a la exportación** (1870-1930)]{.black}
 
-- la salud pública y la educación como motores fundamentales del estado del bienestar.
+- Salud pública y la educación como motores fundamentales del estado del bienestar.
+- Contexto de sociedades extremadamente estratificadas y multirraciales
+- La política social comenzó a desarrollar tres nuevas características significativas: 
+  - La expansión de la educación laica estatal; 
+  - Las autoridades de salud pública asumieron la labor de la Iglesia y las organizaciones benéficas; 
+  - Los primeros sistemas de seguro laboral y de pensiones, que cubrían principalmente a los funcionarios públicos y al personal militar
 
-## [Políticas sociales del **modelo de sustitución de importaciones** ()]{.black}
+
+## [Políticas sociales del **modelo de sustitución de importaciones** (1930-1970)]{.black}
 
 - ciudadanía social regulada y basada en el empleo.
+- cuatro innovaciones más importantes en materia de política social: Educación, salud, pensiones y políticas laborales
+- La educación ya no era una medida disciplinaria, sino una marca de ciudadanía económica y política.
+- Primer intento de la región de construir una ciudadanía social
 
 
-## [*Reformas* en el **nuevo período liberal de exportación**]{.black}
+## [*Reformas* en el **nuevo período liberal de exportación** (1970-2000)]{.black}
 
-- mercantilización, descentralización y focalización
+- Mercantilización, descentralización y focalización
+- El giro hacia la liberalización económica también conocido como el Consenso de Washington, buscaba transformar el modelo de desarrollo: 
+  -  apertura comercial y desregulación;
+  - la desregulación financiera;
+  - la desregulación del mercado laboral; 
+  - la privatización de las empresas públicas; 
+  - un nuevo acuerdo macroeconómico y fiscal, con un giro hacia políticas monetarias conservadoras y un gasto público controlado, financiado en gran medida por impuestos indirectos
 
 
-## [Políticas sociales del **nuevo modelo exportador estatista**]{.black}
+## [Políticas sociales del **nuevo modelo exportador estatista** (2000-2010)]{.black}
+
 
 
 - Combina criterios de **necesidad**, **contribución** y **ciudadanía**.
@@ -131,10 +147,6 @@ Esto se concreta en:
 
 
 
-## [**Discusión**]{.white} {data-background-color="#44322F"}
 
-- ¿Cómo se expresa en Chile un modelo de ciudadanía social? 
-
-- Para llevar a cabo un modo de ciudadanía social, ¿en qué rol debe quedar el mercado?
 
 
