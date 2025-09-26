@@ -196,6 +196,7 @@ elsoc %>% select(j_pol_injustas) %>%
 :::
 
 ## [Pregunta: ***¿Cuál es el efecto de la desigualdad (asuntos de redistribución + su legitimación) en los asuntos de participación y reconocimiento dentro de la justicia espacial?***]{.black} {data-background-color="#AEB7BF"}
+ 
 
 
 ## [Conclusiones]{.black} {data-background-color="#AEB7BF"}
