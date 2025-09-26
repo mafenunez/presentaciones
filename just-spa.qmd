@@ -171,22 +171,10 @@ elsoc %>% select(evaluacion_externa) %>%
 ## [Indicadores: <span style="color: #BF382C;"><strong>**Participación**</strong></span
 <br> ]{.black}
 
-```{r}
-#| echo: false
-
-elsoc %>% select(j_pol_injustas) %>%
-  sjPlot::plot_stackfrq() + theme(legend.position="bottom")+
-  labs(
-    x = NULL, # Elimina el título del eje x
-    y = NULL, # Elimina el título del eje y
-    fill = NULL,
-    title = ""
-  )
-
-```
+- Pregunta actitudinal: **miembro activo, inactivo o no es miembro de la junta de vecinos u otra organización vecinal**. 
 
 ## [Indicadores: <span style="color: #BF382C;"><strong> ¿Y redistribución?</strong></span
-<br> ]{.black}{data-background-color="#AEB7BF"}
+<br> ]{.black}
 
 ::: {.incremental .highlight-last style="font-size: 100%;"}
 - No se presentan preguntas para medir directamente estos asuntos insertados en el espacio.
@@ -194,7 +182,7 @@ elsoc %>% select(j_pol_injustas) %>%
 
 :::
 
-## [Pregunta: ***¿Cuál es el efecto de la desigualdad (asuntos de redistribución + su legitimación) en los asuntos de participación y reconocimiento dentro de la justicia espacial?***]{.black} {data-background-color="#AEB7BF"}
+## [Pregunta: ***¿Cuál es el efecto de la desigualdad (asuntos de redistribución + su legitimación) y la participación en los asuntos de reconocimiento dentro de la justicia espacial?***]{.black} {data-background-color="#AEB7BF"}
  
 
 
