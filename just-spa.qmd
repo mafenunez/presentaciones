@@ -94,7 +94,7 @@ Dimensiones de la justicia (Fraser, 2008)
 
 ::: {.incremental .highlight-last style="font-size: 100%;"}
 - El **caso chileno**: un ejemplo de alta desigualdad y su legitimidad.
-- La desigualdad tiene distintas expresiones, pero una agenda creciente tiene que ver con estudios de **desigualdad socioespacial**.
+- La desigualdad tiene distintas expresiones: **desigualdad socioespacial**.
 :::
 
 # [*¿Empíricamente?*]{.white} {data-background-color="#44322F"}
@@ -113,8 +113,7 @@ Dimensiones de la justicia (Fraser, 2008)
 ::: {.incremental .highlight-last style="font-size: 100%;"}
 - Hablaremos de <span style="color: #BF382C;"><strong>**sensación de (in)justicia espacial**.</strong></span
 <br>
-- Medir a través de las **percepciones** de los sujetos.
-- Evaluar una operacionalización que permita identificar el conjunto de percepciones vinculadas con las **preocupaciones materiales, simbólicas y politicas, junto a las condiciones objetivas que afectan el espacio urbano** en el que residen los sujetos. 
+- Evaluar una operacionalización que permita identificar el conjunto de percepciones vinculadas con las **preocupaciones materiales, simbólicas y políticas, junto a las condiciones objetivas que afectan el espacio urbano** en el que residen los sujetos. 
 :::
 
 ## [**Datos**]{.black} {data-background-color="#AEB7BF"}
@@ -190,8 +189,8 @@ elsoc %>% select(j_pol_injustas) %>%
 <br> ]{.black}{data-background-color="#AEB7BF"}
 
 ::: {.incremental .highlight-last style="font-size: 100%;"}
-- No se presentan preguntas para medir directamente estos asuntos insertados en el espacio
-- Se pueden utilizar otros indicadores: **índice de segregación** 
+- No se presentan preguntas para medir directamente estos asuntos insertados en el espacio.
+- Se pueden utilizar otros indicadores: **índice de segregación**. 
 
 :::
 
