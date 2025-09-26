@@ -149,6 +149,25 @@ elsoc %>% select(j_integracion) %>%
 ```
 
 
+## [Indicadores: <span style="color: #BF382C;"><strong>**Reconocimiento**</strong></span
+<br> ]{.black}
+
+```{r}
+#| echo: false
+
+
+elsoc %>% select(evaluacion_externa) %>%
+  sjPlot::plot_stackfrq() + theme(legend.position="bottom")+
+  labs(
+    x = NULL, # Elimina el título del eje x
+    y = NULL, # Elimina el título del eje y
+    fill = NULL,
+    title = ""
+  )
+
+```
+
+
 
 ## [Indicadores: <span style="color: #BF382C;"><strong>**Participación**</strong></span
 <br> ]{.black}
