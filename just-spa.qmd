@@ -120,7 +120,7 @@ Dimensiones de la justicia (Fraser, 2008)
 ## [**Datos**]{.black} {data-background-color="#AEB7BF"}
 
 ::: {.incremental .highlight-last style="font-size: 100%;"}
-- ELSOC 2022 (N=2730) y 2023 (N=2726)
+- ELSOC 2023 (N=2726)
 - Variables de los módulos:
     - **Territorio** - Dimensión Reconocimiento
     - **Ciudadanía y Democracia** - Dimensión Participación
@@ -128,15 +128,44 @@ Dimensiones de la justicia (Fraser, 2008)
 :::
 
 ## [Indicadores: <span style="color: #BF382C;"><strong>**Reconocimiento**</strong></span
-<br> ]{.black} {data-background-color="#AEB7BF"}
+<br> ]{.black}
 
-![](img/rec.png)
+```{r}
+#| echo: false
+
+pacman::p_load(dplyr, sjPlot, ggplot2)
+
+load("elsoc.RData")
+
+elsoc %>% select(j_integracion) %>%
+  sjPlot::plot_stackfrq() + theme(legend.position="bottom")+
+  labs(
+    x = NULL, # Elimina el título del eje x
+    y = NULL, # Elimina el título del eje y
+    fill = NULL,
+    title = ""
+  )
+
+```
+
 
 
 ## [Indicadores: <span style="color: #BF382C;"><strong>**Participación**</strong></span
-<br> ]{.black}{data-background-color="#AEB7BF"}
+<br> ]{.black}
 
-![](img/part.png)
+```{r}
+#| echo: false
+
+elsoc %>% select(j_pol_injustas) %>%
+  sjPlot::plot_stackfrq() + theme(legend.position="bottom")+
+  labs(
+    x = NULL, # Elimina el título del eje x
+    y = NULL, # Elimina el título del eje y
+    fill = NULL,
+    title = ""
+  )
+
+```
 
 ## [Indicadores: <span style="color: #BF382C;"><strong> ¿Y redistribución?</strong></span
 <br> ]{.black}{data-background-color="#AEB7BF"}
