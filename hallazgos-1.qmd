@@ -1,0 +1,486 @@
+---
+pagetitle: "Familias Encuesta - Hallazgos"
+author: "María Fernanda Núñez"
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+      
+format: 
+  revealjs:
+    logo: img/logo_sin_fondo.png
+    #footer: <img src='coes2.png' alt='Logo' style='height:100px;'>
+    slide-number: true
+    theme: [pp.scss]
+    title-slide-attributes:
+      visibility: false
+    transition: slide
+    transition-speed: slow
+#      data-background-image: images/portada.jpg
+#      data-background-size: cover
+    auto-play-media: true
+
+
+editor:
+  render-on-save: true
+---
+
+## {data-background-color="#9A8FA6"}
+
+:::: columns
+::: {.column width="20%"}
+
+![](img/log-fam.png)
+:::
+
+::: {.column .column-right width="80%"}  
+<br>
+
+
+# [**Hallazgos preliminares: <br> Revisión encuesta**]{.black}
+
+------------------------------------------------------------------------
+
+
+06 de marzo de 2026
+:::
+::::
+
+## [Índice]{.black}
+
+
+1. Cuestionarios y preguntas 
+ 
+2. Adaptaciones 
+
+3.  Uso de 2 olas y estudio longitudinal
+
+
+# [1. Cuestionarios y preguntas]{.white}{data-background-color="#3F074A"}
+
+## [**Cuestionaros relevantes (4)**]{.black} 
+
+- ***The Quebec Longitudinal Study of Child Development (QLSCD)***
+- ***The survey New Families in the Netherlands (NFN)***
+- ***Family Models in Germany (FAMOD) survey***
+- ***Norwegian Dynamics of Family Conflict Study (FamC)***
+  
+Los cuatro refieren a preguntas sobre: la calidad de la relación entre los padres separados, la frecuencia de visitas al hijo y la tensión creada por los acuerdos de convivencia o los derechos de visita, contribución de los padres al cuidado del niño, contribución de los padres a los costos y gastos del niño; y preguntas que aluden al sentimiento de equidad/unfairness en la distribución del cuidado y el costo. 
+
+## [**Cuestionaros longitudinales (2)**]{.black} 
+
+***The Quebec Longitudinal Study of Child Development (QLSCD)***
+
+- **T1** → años 2002-2006, (n = 198) 
+- **T2** → años 2003-2008  (n = 165),
+- **Atrición**: No menciona. Se estima que es de 17%. 
+
+***The survey New Families in the Netherlands (NFN)*** 
+
+- **Primera ola**: 2012-2013, (n = 4481)
+- **Segunda ola**: 2015-2016, (n = 3464)
+- **Tercera ola**: 2020, (n =3056)
+- **Atrición**: Se estima que es de 23% de la primera a la segunda ola y de un 3% de la segunda a la tercera ola. 
+
+
+## [**Preguntas**]{.black}
+
+- [Link matriz de preguntas](https://docs.google.com/spreadsheets/d/1MRmFL-S3CPczORVUWZqEUErRdB8Tg1eyiRVNLmUDcmQ/edit?gid=1005781543#gid=1005781543)
+
+
+## [**Preguntas sobre arreglos de custodia**]{.black}
+
+
+::: {.callout-note title="Frecuencia del contacto entre el padre y el hijo" icon=false}
+En el momento de la separación y en las rondas de recopilación posteriores, los encuestados informaron con quién vivía el niño y el contacto que tenía con el otro progenitor según la siguiente escala: 
+
+- 1 = Sin contacto físico con el padre, 
+- 2 = Contacto esporádico, 
+- 3 = [El niño] ve a su padre cada dos semanas, 
+- 4 = [El niño] ve a su padre cada semana, 
+- 5 = Custodia física compartida, con más tiempo viviendo con la madre, 
+- 6 = Custodia física compartida por igual.
+:::
+
+
+
+## 
+
+::: {.callout-note title="Contribución de los padres al cuidado de los hijos" icon=false}
+
+«Si piensa en el periodo posterior al divorcio/separación, ¿cómo se repartieron usted y su expareja el cuidado y la educación de los hijos? Después del divorcio/separación, ¿hizo usted más, lo mismo o menos que su expareja?». Las opciones de respuesta iban desde 1 a 5, donde: 
+
+- 1 = Hice mucho más que mi expareja. 
+
+- 5 = Hice mucho menos que mi expareja.
+:::
+
+::: {.callout-note title="Inequidad en el cuidado de los hijos" icon=false}
+«¿En qué medida percibió como equitativa o inequitativa esta división del cuidado y la educación entre usted y su expareja?». Las respuestas eran:
+
+- 0 = Equitativa para ambos, 
+- 1 = Solo inequitativa para mí, 
+- 2 = Solo inequitativa para mi expareja, 
+- 3 = Inequitativa para ambos
+:::
+
+## 
+::: {.callout-note title="Cuidado habitual y ocio" icon=false}
+
+Con qué frecuencia (1 = Nunca a 7 = Varias veces al día) habían pasado tiempo con sus hijos durante el último mes realizando las siguientes ocho actividades:
+
+- «Llevar o recoger a los hijos del colegio o de las actividades deportivas»,
+- «Cenar juntos»,
+- «Ayudar con la escuela o los deberes»,
+- «Hablar con el niño sobre cuestiones relacionadas con su vida»,
+- «Hacer tareas domésticas juntos»,
+- «Jugar a un juego o hacer manualidades»,
+- «Ver la televisión»
+-  «Realizar actividades de ocio fuera de casa, como ir al zoológico».
+
+A partir de los cinco primeros elementos que miden el cuidado habitual, creamos una escala tomando la media (α de Cronbach = 0,86). 
+
+También calculamos la puntuación media de los tres últimos elementos que miden el ocio (α de Cronbach = 0,80)
+:::
+
+## 
+
+::: {.callout-note title="Cuidado irregular" icon=false}
+Con qué frecuencia (1 = Casi nunca a 5 = Siempre) participaban en cuatro actividades:
+
+- «Cuidar al niño cuando está enfermo»,
+- «Llevar al niño al médico, al hospital o al dentista»,
+- «Asistir a la obra de teatro, presentación o competición del niño»,
+- «Asistir a las reuniones de padres y profesores». 
+
+Calculamos la puntuación media de estos ítems
+(α de Cronbach = 0,83)
+:::
+
+::: {.callout-note title="Injusticia en el cuidado de los hijos" icon=false}
+Los encuestados indicaron lo justa que les parece la forma en que se ha repartido el cuidado y la supervisión de los hijos entre ellos y su pareja:
+
+- 0 = muy injusta para mí; 
+- 3 = justa para ambos; 
+- 6 = muy injusta para mi pareja
+:::
+
+##
+
+::: {.callout-note title="Contribución relativa de las mujeres al cuidado de los hijos" icon=false}
+Las encuestadas indicaron quién realizaba con más frecuencia las siguientes cinco tareas de cuidado (1 = tú mucho más a menudo que tu pareja, 3 = por igual, 5 = tu pareja mucho más a menudo que tú):
+
+- «lavar y bañar al niño»,
+- «acostar al niño»,
+- «jugar en casa, hacer manualidades»,
+- «hablar con su hijo sobre cuestiones relacionadas con su vida»
+- «salir con el niño (por ejemplo, al parque, al zoo, al cine)» 
+
+(α de Cronbach = 0,85).
+:::
+
+::: {.callout-note title="Contribución relativa de los padres al cuidado de los hijos" icon=false}
+«Si piensa en el periodo posterior al divorcio/separación, ¿cómo se repartieron el cuidado y la educación de los hijos entre usted y su expareja? Tras el divorcio/separación, ¿hizo usted más, lo mismo o menos que su expareja?». Las opciones de respuesta iban desde:
+
+- 1 = Hice mucho más que mi expareja hasta 5 = Hice mucho menos que mi expareja.
+:::
+
+## 
+::: {.callout-note title="Acuerdo de cuidado tras la separación" icon=false}
+En primer lugar, cada encuestado principal recibió un calendario en el que indicaba cuántos días y noches pasaba el niño objetivo con la madre o el padre durante dos semanas de un mes típico. Si estas dos semanas no eran representativas de todo el mes, el encuestado recibía un segundo calendario con las dos últimas semanas del mes. 
+
+- Si el niño objetivo vivía más del 70 % del tiempo (es decir, días y noches) con el encuestado principal, este practicaba la  SPC (Sole Physical Custody) = 0. 
+- Si el niño objetivo pasaba entre el 50 % y el 70 % del tiempo con el encuestado principal, este practicaba la JPC (Join Physical Custody) = 1.
+:::
+
+::: {.callout-note title="Influencia en la toma de decisiones relacionadas con los hijos" icon=false}
+Cuánta influencia (1 = Muy poca a 5 = Mucha) tenían en las decisiones relacionadas con:
+
+- «Hijos en edad escolar»,
+- «Hijos que practican deporte o tocan un instrumento musical»,
+- «tratamiento médico del niño»
+- «qué permitir al niño, como a qué hora acostarse». 
+
+Se creó una escala tomando la media (α de Cronbach = 0,91).
+:::
+
+## 
+
+::: {.callout-note title="Calidad de la crianza compartida" icon=false}
+ «Por favor, indique con qué frecuencia las siguientes afirmaciones son ciertas para usted y el padre/madre biológico/a de [niño/a en cuestión]. Por favor, piense en la situación actual con respecto a [niño/a en cuestión]». Basándose en las categorías de respuesta «nunca» (1) a «muy a menudo» (5), los encuestados evaluaron seis ítems destinados a captar el grado de apoyo en la crianza compartida (véase también Karberg y Cabrera, 2020; Waller, 2012):
+
+- «Cuando el padre/la madre biológico/a está con su hijo, actúa como el padre/la madre que usted desea para su hijo»;
+- «Se puede confiar en que el padre/la madre biológico/a cuidará bien de su hijo»;
+- «El padre/la madre biológico/a respeta los horarios y las normas que usted establece para su hijo»;
+- «El padre/la madre biológico/a le apoya en la forma en que usted quiere criar al niño»;
+- «Usted y el padre/la madre biológico/a pueden hablar sobre los problemas que surgen al criar a su hijo»;
+- «Puede contar con la ayuda del padre/la madre biológico/a cuando necesita que alguien cuide de su hijo durante unas horas» 
+
+ α para una escala media que incluye todos los puntos: 0,92.
+:::
+
+
+## [**Preguntas sobre arreglos económicos**]{.black}
+
+::: {.callout-note title="Contribución de los padres a los gastos relacionados con los hijos" icon=false}
+«Si piensa en el periodo posterior al divorcio/separación, ¿cómo se repartían los gastos relacionados con los hijos entre usted y su expareja (por ejemplo, manutención, gastos escolares)? Después del divorcio/separación, ¿contribuyó más, igual o menos que su expareja?». Las respuestas iban de:
+
+- 1 = Contribuí mucho más que mi expareja a 5 = Contribuí mucho menos que mi expareja
+:::
+
+::: {.callout-note title="Inequidad en los gastos relacionados con los hijos" icon=false}
+tras la pregunta sobre el reparto de los gastos relacionados con los hijos, los encuestados indicaron en qué medida consideraban que este reparto era justo o injusto para ellos y su expareja:
+
+- 0 = justo para ambos
+- 1 = injusto solo para mí, 
+- 2 = injusto solo para mi expareja, 
+- 3 = injusto para ambos.
+
+:::
+## 
+
+::: {.callout-note title="Contribución relativa de los padres a los gastos relacionados con los hijos" icon=false}
+ «Si piensa en el periodo posterior al divorcio/separación, ¿cómo se repartieron los gastos de los hijos entre usted y su expareja (por ejemplo, manutención, gastos escolares)? Después del divorcio/separación, ¿contribuyó más, igual o menos que su expareja?». Las respuestas iban desde 
+ 
+- 1 = Contribuí mucho más que mi expareja hasta 5 = Contribuí mucho menos que mi expareja.
+
+:::
+
+::: {.callout-note title="Injusticia en los gastos relacionados con los hijos" icon=false}
+Tras la pregunta sobre el reparto de los gastos de los hijos, los encuestados indicaron en qué medida consideraban justo o injusto este reparto de gastos entre ellos y su expareja:
+
+- 0 = Justo para ambos, 
+- 1 = Solo injusto para mí, 
+- 2 = Solo injusto para mi expareja, 
+- 3 = Injusto para ambos
+:::
+
+## [**Preguntas sobre la relación entre los padres**]{.black}
+
+
+::: {.callout-note title="Calidad de la relación entre los padres separados" icon=false}
+«¿Cómo describiría la situación ACTUAL entre usted y el padre biológico de su hijo?»: 
+
+- 1 = buena, 
+- 2 = bastante buena, 
+- 3 = mala, 
+- 4 = muy mala.
+:::
+
+::: {.callout-note title="Características relacionadas con el contexto" icon=false}
+«Entre los padres [del niño objetivo], ¿la cuestión de la convivencia y los derechos de visita es_
+
+- 1 = ninguna fuente de tensión? 
+- 2 = muy poca fuente de tensión? 
+- 3 = alguna fuente de tensión? 
+- 4 = una gran fuente de tensión?».
+:::
+
+## 
+::: {.callout-note title="Conflicto parental tras el divorcio" icon=false}
+Con qué frecuencia  había tensiones o conflictos entre ellos y su expareja en el momento de la encuesta:
+
+- 0 = Casi nunca a 3 = Muy a menudo
+
+:::
+
+
+::: {.callout-note title="Frecuencia de los conflictos entre los padres" icon=false}
+«¿Con qué frecuencia se producen hoy en día las siguientes situaciones entre usted y el padre/la madre biológico/a de [niño/a en cuestión]?». Una vez más, los encuestados respondieron a cinco preguntas utilizando una escala de respuesta que iba de nunca (1) a muy a menudo (5). Las cinco preguntas eran las siguientes (véase también Poortman, 2018; van der Heijden et al., 2016):
+
+- «Hay tensiones o diferencias de opinión entre usted y el otro progenitor biológico»;
+- «Hay discusiones acaloradas entre usted y el otro progenitor biológico»;
+- «Uno de ustedes culpa duramente al otro»;
+- «No quieren hablar entre ustedes durante un tiempo»;
+- «Las discusiones se descontrolan» 
+
+α para una escala media que incluye todos los puntos: 0,88.
+
+:::
+
+## 
+::: {.callout-note title="La cooperación y los conflictos entre los padres" icon=false}
+se examinaron utilizando las dos subescalas Cooperación y Agresión verbal de las versiones abreviadas de las Escalas de Conflictos y Resolución de Problemas (CPS) (Helland et al., 2021; Kerig, 1996). 
+
+La cooperación considera los medios para acercarse al otro de forma cooperativa (por ejemplo, «escuchar el punto de vista del otro»), mientras que la agresión verbal se refiere a expresiones agresivas como insultar, acusar o gritar (por ejemplo, «decir o hacer algo para herir los sentimientos del otro»).
+
+Las subescalas constaban de tres ítems cada una, y los padres valoraron la frecuencia con la que ellos y la otra parte se comportaban de esta manera en una escala de cuatro puntos (0 = nunca, 1 = rara vez, 2 = a veces, 3 = a menudo). 
+
+Las subescalas del CPS tenían una consistencia interna de alfa:
+- 0,82 para la cooperación y
+- 0,77 para la agresión verbal.
+
+:::
+
+## 
+
+::: {.callout-note title="La frecuencia/intensidad de los conflictos " icon=false}
+
+1) «¿Con qué frecuencia usted y el otro progenitor tienen desacuerdos menores?» y 
+2) «¿Con qué frecuencia usted y el otro progenitor tienen desacuerdos importantes?», que miden la frecuencia de los conflictos de baja y alta intensidad, respectivamente. 
+
+Los ítems se calificaron en una escala de seis puntos: 
+
+- 1 = una vez al año o menos, 
+- 2 = cada 4-6 meses, 3 = cada 2-3 meses, 
+- 4 = una o dos veces al mes, 
+- 5 = una o dos veces a la semana  
+- 6 = casi todos los días.
+
+
+:::
+
+## [**Orden temático de las preguntas**]{.black} 
+
+::::{.columns}
+::: {.column width="30%"}
+**Creencias de justicia entorno a los arreglos de custodia**
+
+- Preguntas sobre crianza y cuidado 
+    - Situaciones/<br> percepciones
+    - Expectativas/<br> preferencias
+
+- Preguntas sobre la toma de decisiones
+    - Situaciones/percepciones
+    - Expectativas/preferencias
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="25%"}
+**Creencias de justicia entorno a las disputas financieras**
+
+- Preguntas sobre provisión económica 
+    - Situaciones/<br> percepciones
+    - Expectativas/<br> preferencias
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="25%"}
+**Creencias entorno a la relación entre los padres** 
+
+- Preguntas sobre apoyo emocional (conflicto/cooperación)
+    - Situaciones/<br> percepciones
+    - Expectativas/<br> preferencias
+
+:::
+::::
+
+## [**Creencias de justicia entorno a los arreglos de custodia**]{.black}
+
+ |  |  |
+|------|-----------|
+ | Situaciones (percepciones) | Frecuencia del contacto entre el padre y el hijo <br> Contribución de los padres al cuidado de los hijos <br> Inequidad en el cuidado de los hijos <br> Cuidado habitual <br> Ocio <br> Cuidado irregular <br> Inequidad en las tareas domésticas <br> Acuerdo de cuidado tras la separación |
+ | Expectativas (preferencias) | Calidad de la crianza compartida <br> [ADAPTAR]{.red} |
+
+
+## [**Creencias de justicia entorno a los arreglos económicos**]{.black}
+
+|  |  |
+|------|-----------|
+ | Situaciones (percepciones) |  Contribución de los padres a los gastos relacionados con los hijos <br> Inequidad en los gastos relacionados con los hijos |
+ | Expectativas (preferencias) |  [ADAPTAR]{.red} |
+
+
+## [**Creencias de justicia entorno a la relación entre los padres**]{.black}
+
+|  |  |
+|------|-----------|
+ | Situaciones (percepciones) |  Calidad de la relación entre los padres separados <br> Conflicto parental tras el divorcio <br> La frecuencia/intensidad de los conflictos |
+ | Expectativas (preferencias) |  [ADAPTAR]{.red} |
+
+
+  
+# [2. Adaptaciones]{.white}{data-background-color="#3F074A"}
+
+## [**Desde las mismas preguntas sobre percepciones**]{.black}
+
+::: {.callout-caution title="Preferencia contribución al cuidado" icon=false}
+¿Cómo cree que *debería* repartirse entre usted y su expareja el cuidado y la educación de sus hijos (según tipo de repartición, %?)? 
+:::
+
+##
+
+::: {.callout-caution title="Expectativa de cuidado del niño" icon=false}
+De acuerdo a la siguientes afirmaciones, conteste el grado de acuerdo, respecto a la siguientes acciones que usted considera que *debería* realizar su expareja:
+
+- «Llevar o recoger a los hijos del colegio o de las actividades deportivas»,
+«Cenar juntos»,
+- «Ayudar con la escuela o los deberes»,
+- «Hablar con el niño sobre cuestiones relacionadas con su vida»,
+- «Hacer tareas domésticas juntos»,
+- «Jugar a un juego o hacer manualidades»,
+- «Ver la televisión»
+- «Realizar actividades de ocio fuera de casa, como ir al zoológico».
+- «Cuidar al niño cuando está enfermo»,
+- «Llevar al niño al médico, al hospital o al dentista»,
+- «Asistir a la obra de teatro, presentación o competición del niño»,
+- «Asistir a las reuniones de padres y profesores». 
+:::
+
+# [**Preguntas adaptadas al contexto** según Colquitt y Rodell (2015)]{.black}
+
+## [1. Claridad del enfoque]{.black}
+
+En quién está centrada la sensación de injusticia
+
+## [2. Contexto de la medida]{.black}
+
+A partir de las reglas según tipo de justicia
+
+## [Ejemplo justicia procesal]{.black} 
+
+Las siguientes preguntas se refieren a los procedimientos que utiliza su [supervisor (enfoque)]{.red} para tomar decisiones sobre  [salarios, recompensas, evaluaciones, ascensos, asignaciones, etc. (conversiones para el contexto y el intervalo de la experiencia)]{.red} ¿En qué medida:  
+ 
+- ¿Puede expresar sus opiniones durante esos procedimientos?  
+- ¿Puede influir en las decisiones tomadas mediante esos procedimientos? 
+- ¿Se aplican esos procedimientos de manera coherente?  
+- ¿Son esos procedimientos imparciales?   
+- ¿Se basan esos procedimientos en información precisa?  
+- ¿Se pueden recurrir las decisiones tomadas mediante esos procedimientos?  
+-  ¿Cumplen esos procedimientos con las normas éticas y morales? 
+
+## [Ejemplo justicia distributiva]{.black} 
+
+Las siguientes preguntas se refieren a los resultados que recibe de su [supervisor (enfoque)]{.red}, como  [salarios, recompensas, evaluaciones, ascensos, asignaciones, etc. (conversiones para el contexto y el intervalo de la experiencia)]{.red} ¿En qué medida:  
+
+- Esos resultados reflejan el esfuerzo que ha dedicado a su trabajo?  
+- ¿Son adecuados esos resultados para el trabajo que ha realizado?   
+- ¿Reflejan esos resultados lo que ha aportado a su trabajo?  
+- ¿Están justificados esos resultados, teniendo en cuenta su rendimiento?  
+
+
+# [**Criterios implícitos de (in)justicia: experimento factorial de encuesta** (Jasso, 2006)]{.black}
+
+## 
+
+  
+# [3. Uso de 2 olas y estudio longitudinal]{.white}{data-background-color="#3F074A"}
+
+
+## [**Limitación: medición del cambio**]{.black}
+
+Con dos olas no es posible establecer causalidad, ya que no aporta información sobre el cambio. En ese sentido, no se tratarpia formalmente de un estudio longitudinal (Ployhart y MacKenzie, 2015).
+
+1)  confunde diferentes fuentes de varianza; 
+2) la única línea que puede ajustarse a dos oleadas es una línea recta; 
+3) una alta estabilidad entre los momentos 1 y 2 producirá una baja fiabilidad. 
+
+Entonces un estudio con dos olas lo que realiza es 
+a) limitar el examen a relaciones transversales, 
+b) confundir el error de medición con la varianza sistemática relacionada con el cambio sustantivo, y 
+c) producir estimaciones potencialmente engañosas de la cantidad media de cambio observada
+
+
+## [**Ventaja**]{.black}
+
+Aún así, se reconoce que un estudio de este tipo: 
+
+- puede ayudar a reducir las preocupaciones sobre el sesgo del método
+- puede ofrecer inferencias causales más sólidas que un estudio transversal. 
+- si las ocasiones de medición son sustancialmente importantes, también puede ofrecer implicaciones prácticas 
