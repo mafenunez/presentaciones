@@ -427,11 +427,13 @@ De acuerdo a la siguientes afirmaciones, conteste el grado de acuerdo, respecto 
 
 ## [1. Claridad del enfoque]{.black}
 
-En quién está centrada la sensación de injusticia
+En **quién** está centrada la sensación de injusticia.
 
 ## [2. Contexto de la medida]{.black}
 
-A partir de las reglas según tipo de justicia
+A partir de las reglas según tipo de justicia: **procedimental, distritbutiva, interpersonal e informativa**. 
+
+
 
 ## [Ejemplo justicia procesal]{.black} 
 
@@ -457,30 +459,67 @@ Las siguientes preguntas se refieren a los resultados que recibe de su [supervis
 
 # [**Criterios implícitos de (in)justicia: experimento factorial de encuesta** (Jasso, 2006)]{.black}
 
-## 
+## [**Experimento factorial de encuesta**]{.black}
 
-  
+- El experimento nos permitirá observar **criterios implícitos de justicia distributiva**.
+- Se utilizan **viñetas** que representan el perfil según una combinación de caracteristicas. 
+- Por ejemplo, nos permite observar *qué tanto se considera justo la contribución al cuidado de los niños según el género y considerando la situación económica hipotética*. 
+- En el análisis, nos permite **diferenciar efectos por cada característica**. A partir de regresiones, en que:
+    - Variable dependiente: es la **respuesta** al enunciado.  
+    - Variables independientes: las **características**. 
+
+## [**Decisiones metodológicas**]{.black}
+- ¿Cuántas dimensiones y niveles?
+- ¿Qué características deben mantenerse constantes?
+- ¿Cuántas viñetas deben muestrearse del universo?
+- ¿Cuántos conjuntos de viñetas?
+- ¿Cuántas viñetas por encuestado?
+- ¿Qué método debe utilizarse para componer la muestra/conjunto de viñetas
+(por ejemplo, muestreo aleatorio o diseños de cuotas)?
+- Tamaño de la muestra de encuestados (¿qué es factible?)
+
+## [**Ejemplo enunciado con 12 dimensiones**]{.black}
+
+*Una mujer de 40 años sin formación profesional tiene un hijo y trabaja como maquinista. Ha adquirido mucha experiencia. Ha tenido problemas de salud durante mucho tiempo. Se incorporó hace mucho tiempo a una gran empresa (económicamente estable) y su rendimiento está por encima de la media.*
+
+*Sus ingresos brutos mensuales ascienden a 1500 euros (antes de impuestos y otros cambios).*
+
+*¿Considera que los ingresos brutos mensuales de esta persona son justos o, desde su punto de vista, injustamente altos o bajos?*
+
+Categorías de respuesta: 
+
+- -5 (Injustamente baja); 0 (Justo); 5 (Injustamente alto)
+
+## [**Adaptado**]{.black}
+
+*Una mujer de 40 años separada, pero con una nueva pareja, con trabajo estable y un sueldo de 500.000 al mes. Solo ve a su hijo los fines de semana y algunas veces lo va a recoger a la escuela. Además, contribuye un 25% en los gastos del niño.*
+
+*¿Considera que el aporte al cuidado y gastos del niño realizados por esta persona es justo o, desde su punto de vista, injustamente alto o bajo?*
+
+
+
 # [3. Uso de 2 olas y estudio longitudinal]{.white}{data-background-color="#3F074A"}
 
 
 ## [**Limitación: medición del cambio**]{.black}
 
-Con dos olas no es posible establecer causalidad, ya que no aporta información sobre el cambio. En ese sentido, no se tratarpia formalmente de un estudio longitudinal (Ployhart y MacKenzie, 2015).
+Un estudio de dos olas **no aporta información sobre el cambio**. En ese sentido, **no** se trataría formalmente de un estudio longitudinal (Ployhart y MacKenzie, 2015).
 
-1)  confunde diferentes fuentes de varianza; 
-2) la única línea que puede ajustarse a dos oleadas es una línea recta; 
-3) una alta estabilidad entre los momentos 1 y 2 producirá una baja fiabilidad. 
+1) Confunde *diferentes fuentes de varianza*; 
+2) La única línea que puede ajustarse a dos oleadas es una *línea recta*; 
+3) Una *alta estabilidad entre los momentos 1 y 2* producirá una **baja fiabilidad**. 
 
-Entonces un estudio con dos olas lo que realiza es 
-a) limitar el examen a relaciones transversales, 
-b) confundir el error de medición con la varianza sistemática relacionada con el cambio sustantivo, y 
-c) producir estimaciones potencialmente engañosas de la cantidad media de cambio observada
+Entonces un estudio con dos olas:
+
+- Limita el examen a **relaciones transversales**, 
+- Confunde el **error de medición** con la varianza sistemática relacionada con el cambio sustantivo, y 
+- Produce **estimaciones potencialmente engañosas** de la cantidad media de cambio observada
 
 
 ## [**Ventaja**]{.black}
 
 Aún así, se reconoce que un estudio de este tipo: 
 
-- puede ayudar a reducir las preocupaciones sobre el sesgo del método
-- puede ofrecer inferencias causales más sólidas que un estudio transversal. 
-- si las ocasiones de medición son sustancialmente importantes, también puede ofrecer implicaciones prácticas 
+- Puede ayudar a reducir las preocupaciones sobre el *sesgo del método*.
+- Puede ofrecer ***inferencias causales más sólidas que un estudio transversal***. 
+- Si las *ocasiones de medición son sustancialmente importantes*, también puede ofrecer implicaciones prácticas 
