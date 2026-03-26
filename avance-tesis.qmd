@@ -1,0 +1,84 @@
+---
+pagetitle: "Presentación COES-OBDE: Justicia espacial - Mafe"
+author: "María Fernanda Núñez"
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+      
+format: 
+  revealjs:
+    #logo: images/Imagen2.png
+    #footer: <img src='coes2.png' alt='Logo' style='height:100px;'>
+    slide-number: true
+    theme: [pp.scss]
+    title-slide-attributes:
+      visibility: false
+    transition: slide
+    transition-speed: slow
+#      data-background-image: images/portada.jpg
+#      data-background-size: cover
+    auto-play-media: true
+
+
+editor:
+  render-on-save: true
+---
+
+## {data-background-color="#BF382C"}
+
+
+:::: {.columns .v-center-container}
+::: {.column width=5%}
+:::
+::: {.column width=95%}
+## [**Justicia espacial: Una aproximación desde una perspectiva tridimensional de la justicia**]{.white}
+
+------------------------------------------------------------------------
+
+[María Fernanda Núñez]{.black}  
+ <br>
+ [Taller de Tesis I]{.black}
+ <br>
+[27 marzo 2026]{.black}
+:::
+::::
+
+# [Antecedentes]{.white} {data-background-color="#44322F"}
+
+## [***Este estudio***]{.black} {data-background-color="#AEB7BF"}
+
+- **Objetivo**: Analizar la noción de justicia espacial en los estudios urbanos chilenos a partir de una *operacionalización múltiple que articule la perspectiva tridimensional de Fraser (2008) —redistribución, reconocimiento y representación— con el enfoque espacial de Soja (2010)*. 
+
+- **Justificación epistemológica**: Examinar la *producción conceptual como un objeto de estudio*.
+
+- **Método**: *Datos secundarios*. El corpus se construirá mediante la recopilación de artículos de investigación desde un muestreo teórico y se analizará a través de técnicas de meta-interpretación (Weed, 2005)
+
+## [Pregunta: <br> **¿Cómo se conceptualiza tridimensionalmente la justicia espacial a partir de los estudios urbanos chilenos producidos en la época del 2014 hasta la actualidad?**]{.black}{data-background-color="#AEB7BF"}
+
+## [Objetivos específicos]{.black} {data-background-color="#AEB7BF"} 
+
+
+1. **Analizar la forma en que es conceptualizada la dimensión de redistribución en los estudios urbanos chilenos.**
+
+<br>
+2. **Analizar la forma en que es conceptualizada la dimensión de reconocimiento en los estudios urbanos chilenos.**
+
+<br>
+3. **Analizar la forma en que es conceptualizada la dimensión de representación en los estudios urbanos chilenos.**
+
+
+# [Estrategia muestral]{.white} {data-background-color="#44322F"}
+
+## {background-image="img/m.png" background-size="contain" background-position="center"}
+
+
+# [Análisis: meta-interpretación]{.white} {data-background-color="#44322F"}
+
+# [Avance]{.white} {data-background-color="#44322F"}
+
+## {background-image="img/carta-gantt.png" background-size="contain" background-position="center"}
+
+# [**¡Gracias por su atención!**]{.black} {data-background-color="#BF382C"}
