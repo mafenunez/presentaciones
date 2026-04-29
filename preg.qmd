@@ -50,6 +50,10 @@ editor:
 
 ## 
 
+![](img/esq.png)
+
+## 
+
 :::: columns
 ::: {.column width="50%"}
 
@@ -79,9 +83,6 @@ editor:
 :::
 
 
-## 
-
-![](img/esq.png)
 
 ## [*Actitudes* frente a situaciones de injusticia en la vida familiar]{.black}
 
