@@ -134,12 +134,8 @@ Porcentaje en que la persona considera que el cuidado y crianza realizados son m
 
 :::
 
-$$
-\text{Justicia} = \frac{\text{Cuidado esperado}}{\text{Cuidado percibido}}
-$$
-$$
-\text{Justicia} = \frac{\text{Influencia esperada}}{\text{Influencia percibida}}
-$$
+$$\text{Justicia} = \ln\left(\frac{\text{Cuidado percibido}}{\text{Cuidado esperado}}\right)$$
+$$\text{Justicia} = \ln\left(\frac{\text{Influencia percibida}}{\text{Influencia esperada}}\right)$$
 
 ## [*Expectativas* respecto a las responsabilidades y obligaciones familiares]{.black}
 
