@@ -116,31 +116,117 @@ Uso empírico de la justicia desde un ***enfoque evaluativo*** (Morange y Quenti
 ## <span style="color: #BF382C;"><strong>PRISMA - Criterios de inclusión </strong></span
 <br>  {data-background-color="#AEB7BF"}
 
-::: {.incremental .highlight-last style="font-size: 100%;"}
--
-:::
+
+```{=html}
+<table style="width:100%; border-collapse: collapse; font-size: 0.75em;">
+  <tr>
+    <td colspan="2" style="background:#e0e0e0; font-weight:bold; border:1px solid #333; padding:8px;">
+      Identificación
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border:1px solid #333; padding:8px;">
+      Artículos de 2 revistas urbanas chilenas indexadas
+    </td>
+  </tr>
+  <tr>
+    <td style="background:#e0e0e0; font-weight:bold; border:1px solid #333; padding:8px; width:50%;">
+      Selección
+    </td>
+    <td style="background:#e0e0e0; font-weight:bold; border:1px solid #333; padding:8px; width:50%;">
+      Excluidos
+    </td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #333; padding:8px; vertical-align:top;">
+      <ul style="margin:0; padding-left:1.1em;">
+        <li>Estudian contexto urbano chileno</li>
+        <li>2014-2025</li>
+      </ul>
+    </td>
+    <td style="border:1px solid #333; padding:8px; vertical-align:top;">
+      <ul style="margin:0; padding-left:1.1em;">
+        <li>Estudian contexto urbano regional u de otro país distinto a Chile</li>
+        <li>Números anteriores a 2014</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="background:#e0e0e0; font-weight:bold; border:1px solid #333; padding:8px;">
+      Incluidos
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border:1px solid #333; padding:8px;">
+      184 artículos
+    </td>
+  </tr>
+</table>
+```
 
 ## [**Web Scraping**]{.black} {data-background-color="#AEB7BF"}
 
-::: {.incremental .highlight-last style="font-size: 100%;"}
-- 
-:::
+
+- Paquetes: **`rvest`** y **`httr`** 
+- Estructura de las bases de datos: 
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(dplyr)
+df_urb  <- read.csv("urbanismo_chile_filtrado_detalle.csv", stringsAsFactors = FALSE)
+
+df_urb <- select(df_urb, id,url,anio,num,titulo,abstract=var1,palabras_claves=var2,url_pdf)
+
+```
 
 
+```{r}
+#| echo: false
+#| #| warning: false
+#| message: false
+library(dplyr)
+library(gt)
+
+df_urb %>% 
+  head(2) %>% 
+  gt() %>% 
+  tab_options(
+    table.font.size = px(9),
+   # heading.title.font.size = px(18),
+    column_labels.font.weight = "bold",
+    column_labels.background.color = "#e0e0e0"
+  )
+```
 
 # [<span style="color: #BF382C;"><strong>**Objetivo 1:**</strong></span
 <br>  Fenómenos espaciales]{.black}
 
+## [Paquete **`bibliometrix`**]{.black} {data-background-color="#AEB7BF"}
+
+- **Red de co-ocurrencias** a partir de las palabras clave del artículo 
+
+- **Léxico** 
 
 
-# [ <span style="color: #BF382C;"><strong>**Objetivo 2:**</strong></span
+## {background-image="red.png" background-size="contain"}
+
+## [Próximamente]{.black}
+
+### [<span style="color: #BF382C;"><strong>**Objetivo 1:**</strong></span
+<br>  Fenómenos espaciales]{.black}
+- Usar otras herramientas para afinar la identificación de los fenómenos mediante el uso de embeddings: **`BERTopic`**
+  - **Semántico** 
+
+### [ <span style="color: #BF382C;"><strong>**Objetivo 2:**</strong></span
 <br> Dimensiones]{.black}
 
+- **Modelo keyATM** y selección de diez artículos con mayor probabilidad de asociarse a cada una de las tres dimensiones (se trabajará con una muestra final de 30 documentos) 
 
-
-# [<span style="color: #BF382C;"><strong>**Objetivo 3:**</strong></span
+### [<span style="color: #BF382C;"><strong>**Objetivo 3:**</strong></span
 <br> Interpretación ]{.black}
-
+-  Análisis cualitativo de **meta-interpretación** (Weed, 2005)
 
  
 

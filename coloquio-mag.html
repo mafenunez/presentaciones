@@ -394,36 +394,578 @@
 </section>
 <section id="prisma---criterios-de-inclusión" class="slide level2" data-background-color="#AEB7BF">
 <h2><span style="color: #BF382C;"><strong>PRISMA - Criterios de inclusión </strong></span></h2>
-<div class="highlight-last" style="font-size: 100%;">
-<ul>
-<li class="fragment"></li>
-</ul>
+<div>
+<table data-quarto-postprocess="true" style="width:100%; border-collapse: collapse; font-size: 0.75em;">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td colspan="2" style="background: #e0e0e0; font-weight: bold; border: 1px solid #333; padding: 8px">Identificación</td>
+</tr>
+<tr class="even">
+<td colspan="2" style="border: 1px solid #333; padding: 8px">Artículos de 2 revistas urbanas chilenas indexadas</td>
+</tr>
+<tr class="odd">
+<td style="background: #e0e0e0; font-weight: bold; border: 1px solid #333; padding: 8px; width: 50%">Selección</td>
+<td style="background: #e0e0e0; font-weight: bold; border: 1px solid #333; padding: 8px; width: 50%">Excluidos</td>
+</tr>
+<tr class="even">
+<td style="border: 1px solid #333; padding: 8px; vertical-align: top"><ul>
+<li>Estudian contexto urbano chileno</li>
+<li>2014-2025</li>
+</ul></td>
+<td style="border: 1px solid #333; padding: 8px; vertical-align: top"><ul>
+<li>Estudian contexto urbano regional u de otro país distinto a Chile</li>
+<li>Números anteriores a 2014</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td colspan="2" style="background: #e0e0e0; font-weight: bold; border: 1px solid #333; padding: 8px">Incluidos</td>
+</tr>
+<tr class="even">
+<td colspan="2" style="border: 1px solid #333; padding: 8px">184 artículos</td>
+</tr>
+</tbody>
+</table>
 </div>
 </section>
 <section id="web-scraping" class="slide level2" data-background-color="#AEB7BF">
 <h2><span class="black"><strong>Web Scraping</strong></span></h2>
-<div class="highlight-last" style="font-size: 100%;">
 <ul>
-<li class="fragment"></li>
+<li>Paquetes: <strong><code>rvest</code></strong> y <strong><code>httr</code></strong></li>
+<li>Estructura de las bases de datos:</li>
 </ul>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div id="kafflrejfm" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#kafflrejfm table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#kafflrejfm thead, #kafflrejfm tbody, #kafflrejfm tfoot, #kafflrejfm tr, #kafflrejfm td, #kafflrejfm th {
+  border-style: none;
+}
+
+#kafflrejfm p {
+  margin: 0;
+  padding: 0;
+}
+
+#kafflrejfm .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 9px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#kafflrejfm .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#kafflrejfm .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#kafflrejfm .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#kafflrejfm .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#kafflrejfm .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#kafflrejfm .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#kafflrejfm .gt_col_heading {
+  color: #333333;
+  background-color: #E0E0E0;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#kafflrejfm .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #E0E0E0;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#kafflrejfm .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#kafflrejfm .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#kafflrejfm .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#kafflrejfm .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#kafflrejfm .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#kafflrejfm .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#kafflrejfm .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#kafflrejfm .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#kafflrejfm .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#kafflrejfm .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kafflrejfm .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#kafflrejfm .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#kafflrejfm .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#kafflrejfm .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kafflrejfm .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#kafflrejfm .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#kafflrejfm .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#kafflrejfm .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kafflrejfm .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#kafflrejfm .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#kafflrejfm .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#kafflrejfm .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#kafflrejfm .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#kafflrejfm .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kafflrejfm .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#kafflrejfm .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kafflrejfm .gt_left {
+  text-align: left;
+}
+
+#kafflrejfm .gt_center {
+  text-align: center;
+}
+
+#kafflrejfm .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#kafflrejfm .gt_font_normal {
+  font-weight: normal;
+}
+
+#kafflrejfm .gt_font_bold {
+  font-weight: bold;
+}
+
+#kafflrejfm .gt_font_italic {
+  font-style: italic;
+}
+
+#kafflrejfm .gt_super {
+  font-size: 65%;
+}
+
+#kafflrejfm .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#kafflrejfm .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#kafflrejfm .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#kafflrejfm .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#kafflrejfm .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#kafflrejfm .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#kafflrejfm .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#kafflrejfm .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#kafflrejfm div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_col_headings">
+<th id="id" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">id</th>
+<th id="url" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">url</th>
+<th id="anio" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">anio</th>
+<th id="num" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">num</th>
+<th id="titulo" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">titulo</th>
+<th id="abstract" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">abstract</th>
+<th id="palabras_claves" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">palabras_claves</th>
+<th id="url_pdf" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">url_pdf</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right" headers="id">1</td>
+<td class="gt_row gt_left" headers="url">https://revistaurbanismo.uchile.cl/index.php/RU/article/view/30879</td>
+<td class="gt_row gt_right" headers="anio">2014</td>
+<td class="gt_row gt_right" headers="num">30</td>
+<td class="gt_row gt_left" headers="titulo">Diseño urbano y sentido de lugar</td>
+<td class="gt_row gt_left" headers="abstract">Chilean cities should be subject of serious concern, not only because population in them is growing in size, but also in discontent. Functionality related problems, as well as a loss of local identity, make dwelling in urban areas meaningless. Addressing the aforementioned problems requires an approach that not only considers functionality, but also perceptual and subjective issues that arise from the perception that the inhabitants of cities have, in relation with their environment. Therefore, the sense of place appears to be a fundamental aspect to look at, since it can transform the way of inhabiting a certain area. Moreover, some guidance regarding what is a good place, and should it be can be found within the principles of urban design. However, the linkage between design theory, creating sense of place and the urban design practice, have not been developed yet. This articles intends to look at how Sternberg's integrative urban design theory could be applied, putting emphasis on the production of places with meaning, through the projects developed in an architecture studio at the Universidad Austral de Chile, for the city of Valdivia. The results focus on the spatial transformation of key areas of the city, through a methodology that integrates theory and practice.</td>
+<td class="gt_row gt_left" headers="palabras_claves">Diseño urbano; Lugar; Valdivia; Espacio público</td>
+<td class="gt_row gt_left" headers="url_pdf">https://revistaurbanismo.uchile.cl/index.php/RU/article/view/30879/33911</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="id">2</td>
+<td class="gt_row gt_left" headers="url">https://revistaurbanismo.uchile.cl/index.php/RU/article/view/35459</td>
+<td class="gt_row gt_right" headers="anio">2015</td>
+<td class="gt_row gt_right" headers="num">32</td>
+<td class="gt_row gt_left" headers="titulo">Construir la ciudad desde los espacios públicos</td>
+<td class="gt_row gt_left" headers="abstract">With the lack of public space as a factor that generates urban quality of life in terms of missed opportunities of the territory, loss of identity and social division, is proposed a methodology for analysis and evaluation of the urban public space based on qualitative data, with a theoretical basis, so it can be used in planning practice. The manuscript is centered on the potential projection of perceived urban space and spatial hierarchies as a result of the social uses along with temporal-spatial changes such as population growth and social disintegration. For this, it is reviewed various notions of public space and elements of correspondence in the city of Santiago, Chile. In order to understand the behavior and function of public space, a methodology for classification of public spaces is made on the dimensions: morpho-typology, functional and socio-psychological from the relationships established between man and his environment. It is concluded that uncovering these discourses becomes fundamental to add a new level to effective urban infrastructure according to their needs and conditions, significantly increasing the socio-spatial impacts.</td>
+<td class="gt_row gt_left" headers="palabras_claves">Espacios públicos; tipología; integración social; convergencias; alteridad</td>
+<td class="gt_row gt_left" headers="url_pdf">https://revistaurbanismo.uchile.cl/index.php/RU/article/view/35459/38290</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
 </div>
 </section></section>
+<section>
 <section id="objetivo-1-fenómenos-espaciales" class="title-slide slide level1 center">
 <h1><span class="black"><span style="color: #BF382C;"><strong><strong>Objetivo 1:</strong></strong></span> Fenómenos espaciales</span></h1>
 
 </section>
-
-<section id="objetivo-2-dimensiones" class="title-slide slide level1 center">
-<h1><span class="black"><span style="color: #BF382C;"><strong><strong>Objetivo 2:</strong></strong></span> Dimensiones</span></h1>
-
+<section id="paquete-bibliometrix" class="slide level2" data-background-color="#AEB7BF">
+<h2><span class="black">Paquete <strong><code>bibliometrix</code></strong></span></h2>
+<ul>
+<li><p><strong>Red de co-ocurrencias</strong> a partir de las palabras clave del artículo</p></li>
+<li><p><strong>Léxico</strong></p></li>
+</ul>
 </section>
-
-<section>
-<section id="objetivo-3-interpretación" class="title-slide slide level1 center">
-<h1><span class="black"><span style="color: #BF382C;"><strong><strong>Objetivo 3:</strong></strong></span> interpretación</span></h1>
-
+<section id="section-2" class="slide level2" data-background-image="red.png" data-background-size="contain">
+<h2></h2>
 </section>
-<section id="section-2" class="slide level2" data-background-color="#BF382C">
+<section id="próximamente" class="slide level2">
+<h2><span class="black">Próximamente</span></h2>
+<h3 id="objetivo-1-fenómenos-espaciales-1"><span class="black"><span style="color: #BF382C;"><strong><strong>Objetivo 1:</strong></strong></span> Fenómenos espaciales</span></h3>
+<ul>
+<li>Usar otras herramientas para afinar la identificación de los fenómenos mediante el uso de embeddings: <strong><code>BERTopic</code></strong>
+<ul>
+<li><strong>Semántico</strong></li>
+</ul></li>
+</ul>
+<h3 id="objetivo-2-dimensiones"><span class="black"><span style="color: #BF382C;"><strong><strong>Objetivo 2:</strong></strong></span> Dimensiones</span></h3>
+<ul>
+<li><strong>Modelo keyATM</strong> y selección de diez artículos con mayor probabilidad de asociarse a cada una de las tres dimensiones (se trabajará con una muestra final de 30 documentos)</li>
+</ul>
+<h3 id="objetivo-3-interpretación"><span class="black"><span style="color: #BF382C;"><strong><strong>Objetivo 3:</strong></strong></span> Interpretación</span></h3>
+<ul>
+<li>Análisis cualitativo de <strong>meta-interpretación</strong> (Weed, 2005)</li>
+</ul>
+</section>
+<section id="section-3" class="slide level2" data-background-color="#BF382C">
 <h2></h2>
 <div class="columns v-center-container">
 <div class="column" style="width:5%;">
