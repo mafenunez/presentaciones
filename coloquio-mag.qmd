@@ -1,0 +1,171 @@
+---
+pagetitle: "Presentación Justicia espacial - Mafe"
+author: "María Fernanda Núñez"
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+      
+format: 
+  revealjs:
+    #logo: images/Imagen2.png
+    #footer: <img src='coes2.png' alt='Logo' style='height:100px;'>
+    slide-number: true
+    theme: [pp.scss]
+    title-slide-attributes:
+      visibility: false
+    transition: slide
+    transition-speed: slow
+#      data-background-image: images/portada.jpg
+#      data-background-size: cover
+    auto-play-media: true
+
+
+editor:
+  render-on-save: true
+---
+
+## {data-background-color="#BF382C"}
+
+
+:::: {.columns .v-center-container}
+::: {.column width=5%}
+:::
+::: {.column width=95%}
+## [**Justicia espacial: Una aproximación desde una perspectiva tridimensional de la justicia**]{.white}
+
+------------------------------------------------------------------------
+
+[María Fernanda Núñez]{.black}  
+[Departamento de Sociología, Universidad de Chile]{.black}  <br>
+[**4° Coloquio de Tesistas del Magíster en Ciencias Sociales**]{.black} <br>
+[14 de agosto de 2026]{.black}
+:::
+::::
+
+<span class="bloque"></span>
+
+
+<div style="text-align: center;">
+  <img src="img/MCS.png" alt="Logo 1" style="height:80px; margin-right: 30px;">
+  <img src="img/logo-facso.png" alt="Logo 2" style="height:80px; margin-left: 30px;">
+</div>
+
+
+
+# [Antecedentes]{.white} {data-background-color="#44322F"}
+
+## {data-background-color="#AEB7BF"}
+
+:::: columns
+
+::: {.column width="35%"}
+**Producción** conceptual como un objeto de estudio (Latour, 1992): 
+
+- Discutir el uso de la noción de justicia en las temáticas asociadas al espacio,  para así entender cómo se conceptualiza <span style="color: #BF382C;"><strong>*lo justo*</strong>.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="55%"}
+Uso empírico de la justicia desde un ***enfoque evaluativo*** (Morange y Quentin, 2018):
+
+> <span style="color: #BF382C;"><strong> Los estudios urbanos críticos se caracterizan por no definir explícitamente los supuestos normativos de la crítica que realizan</strong>
+:::
+::::
+
+
+
+
+
+## [**¿Qué entendemos por *Justicia?***]{.black} {data-background-color="#AEB7BF"}
+
+:::: columns
+
+::: {.column width="50%"}
+- Justicia Espacial (Soja, 2010)
+
+- Dimensiones de la justicia (Fraser, 2008)
+
+> Situación en que las dinámicas espaciales cumplen con el ejercicio pleno del criterio de la paridad participativa.
+:::
+
+::: {.column width="50%"}
+![](img/bib.png)
+:::
+
+::::
+
+
+
+
+## [ <span style="color: #44322F;"><strong>Pregunta: <br> <br> </strong></span
+<br> ***¿Cómo se investiga la justicia espacial en los estudios urbanos chilenos publicados desde 2014 hasta la actualidad?***]{.white} {data-background-color="#BF382C"}
+
+
+
+# [Metodología]{.white} {data-background-color="#44322F"}
+
+
+
+ 
+
+## <span style="color: #BF382C;"><strong>PRISMA - Criterios de inclusión </strong></span
+<br>  {data-background-color="#AEB7BF"}
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-
+:::
+
+## [**Web Scraping**]{.black} {data-background-color="#AEB7BF"}
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+- 
+:::
+
+
+
+# [<span style="color: #BF382C;"><strong>**Objetivo 1:**</strong></span
+<br>  Fenómenos espaciales]{.black}
+
+
+
+# [ <span style="color: #BF382C;"><strong>**Objetivo 2:**</strong></span
+<br> Dimensiones]{.black}
+
+
+
+# [<span style="color: #BF382C;"><strong>**Objetivo 3:**</strong></span
+<br> Interpretación ]{.black}
+
+
+ 
+
+## {data-background-color="#BF382C"}
+
+
+:::: {.columns .v-center-container}
+::: {.column width=5%}
+:::
+::: {.column width=95%}
+## [**Justicia espacial: Una aproximación desde una perspectiva tridimensional de la justicia**]{.white}
+
+------------------------------------------------------------------------
+
+[María Fernanda Núñez]{.black}  
+[Departamento de Sociología, Universidad de Chile]{.black}  <br>
+[**4° Coloquio de Tesistas del Magíster en Ciencias Sociales**]{.black} <br>
+[14 de agosto de 2026]{.black}
+:::
+::::
+
+<span class="bloque"></span>
+
+
+<div style="text-align: center;">
+  <img src="img/MCS.png" alt="Logo 1" style="height:80px; margin-right: 30px;">
+  <img src="img/logo-facso.png" alt="Logo 2" style="height:80px; margin-left: 30px;">
+</div>
