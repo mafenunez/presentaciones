@@ -1,0 +1,136 @@
+---
+pagetitle: "DEG Encuesta"
+author: "María Fernanda Núñez"
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+      
+format: 
+  revealjs:
+    logo: img/logo-facso.png
+    #footer: <img src='coes2.png' alt='Logo' style='height:100px;'>
+    slide-number: true
+    theme: [pp.scss]
+    title-slide-attributes:
+      visibility: false
+    transition: slide
+    transition-speed: slow
+#      data-background-image: images/portada.jpg
+#      data-background-size: cover
+    auto-play-media: true
+
+
+editor:
+  render-on-save: true
+---
+
+## {data-background-color="#1B2740"}
+
+:::: columns
+::: {.column width="20%"}
+![](img/logo-facso.png)
+
+:::
+
+::: {.column .column-right width="80%"}  
+<br>
+
+
+# [**Resultados de la Encuesta: <br> <span style="color: #DD5C61;"><strong>Estudio de Demanda DEG</strong></span>**]{.white}
+
+------------------------------------------------------------------------
+
+
+-- de septiembre de 2026
+:::
+::::
+
+## [Índice]{.white} {data-background-color="#1B2740"}
+
+- Demanda 
+  - ¿Qué características se esperan de un programa de Posgrado?
+  - ¿Qué características se esperan de un programa de Doctorado?
+
+- Propuesta 
+  - ¿Cuánto interes genera la propuesta?
+  - ¿A quienes les interesa la propuesta? 
+  - Caracteristicas de la propuesta
+  
+
+
+
+# <span style="color: white;"><strong>¿Cuál es la demanda para un Doctorado en Estudios de Género?</strong></span> {data-background-color="#1B2740"}
+
+## 
+indicar el procentaje de personas que les interesa un posgrado 
+
+## <span style="color: #1B2740;"><strong>¿Qué características se esperan de un programa de *Posgrado*?</strong></span> {data-background-color="#DD5C61"} 
+
+
+aspectos impostantes a la hora de escoger un pograma 
+
+
+localidad del programa
+
+
+##
+razones de estudiar en chile
+
+
+##
+preferencia uchile + razones 
+
++ cruce por genero y otras 
+
+
+## <span style="color: #1B2740;"><strong>¿Qué características se esperan de un programa de *Doctorado*?</strong></span> {data-background-color="#DD5C61"}  
+
+aspectos
+
+motivaciones (+ cruce con quienes les interesa la uchile)
+
+##
+elementos 
+
+## 
+tematicas 
+cruce por genero
+
+# <span style="color: white;"><strong>Propuesta de programa</strong></span> {data-background-color="#1B2740"}
+
+## <span style="color: #1B2740;"><strong>¿Cuánto interes genera la propuesta?</strong></span> {data-background-color="#DD5C61"} 
+
+
+::: columns
+::: {.column width="50%"}
+::: {.callout-note title="Características del programa" icon=false}
+
+- Formará investigadores(as) para la realización de contribuciones a los Estudios de Género como disciplina y a la agenda social a través del estudio original y autónomo de problemáticas sociales relacionadas con género.
+
+- Pocas vacantes en el programa permitirán una formación personalizada, con apoyo de pares y de académicos(as) especializados(as) en líneas de investigación de relevancia para los estudios de género.
+
+- Foco en desarrollo de proyecto e investigación original para el desarrollo de una tesis doctoral que sea un aporte y que genere un impacto en los Estudios de Género.
+
+- Cuatro años de duración
+:::
+:::
+
+::: {.column width="50%"}
+% interes 
+:::
+:::
+
+## <span style="color: #1B2740;"><strong>¿A quienes les interesa la propuesta?</strong></span> {data-background-color="#DD5C61"} 
+
+cruce var interes con edad, genero, residencia, nivel educacional y motivaciones 
+
+cruce var matricula 
+
+## <span style="color: #1B2740;"><strong>Características de la propuesta</strong></span> {data-background-color="#DD5C61"}  
+
+## 
+comentarios relevantes 
+
