@@ -50,44 +50,143 @@ editor:
 
 ## [Índice]{.white} {data-background-color="#1B2740"}
 
-- Demanda 
-  - ¿Qué características se esperan de un programa de Posgrado?
-  - ¿Qué características se esperan de un programa de Doctorado?
+:::: columns
+::: {.column width="50%"}
+1. Demanda
 
-- Propuesta 
-  - ¿Cuánto interes genera la propuesta?
-  - ¿A quienes les interesa la propuesta? 
-  - Caracteristicas de la propuesta
-  
+1.1 ¿Qué características se esperan de un programa de Posgrado?
+<br>
+<br>
+1.2 ¿Qué características se esperan de un programa de Doctorado?
+
+:::
+
+::: {.column width="50%"}
+2. Propuesta 
+
+2.1 ¿Cuánto interes genera la propuesta?
+<br>
+<br>
+2.2 ¿A quienes les interesa la propuesta? 
+<br>
+<br>
+2.3 Caracteristicas de la propuesta
+:::
+::::
 
 
 
-# <span style="color: white;"><strong>¿Cuál es la demanda para un Doctorado en Estudios de Género?</strong></span> {data-background-color="#1B2740"}
+# <span style="color: white;"><strong> 1. ¿Cuál es la demanda para un Doctorado en Estudios de Género?</strong></span> {data-background-color="#1B2740"}
+
+##
+
+### <br> <br> <span style="color: #1B2740;">De las 161 personas encuestadas, **147 (91.30%) cree que es importante** contar con un posgrado en Estudios de Género. <br> <br> Mientras que <span style="color: #DD5C61;">solo **111 (68.94%) esta interesada en estudiar**</span> un posgrado en Estudios de Género.</span>
+
+# <span style="color: #1B2740;"><strong>1.1 ¿Qué características se esperan de un programa de *Posgrado*?</strong></span> {data-background-color="#DD5C61"} 
+
 
 ## 
-indicar el procentaje de personas que les interesa un posgrado 
 
-## <span style="color: #1B2740;"><strong>¿Qué características se esperan de un programa de *Posgrado*?</strong></span> {data-background-color="#DD5C61"} 
-
-
-aspectos impostantes a la hora de escoger un pograma 
+#### <span style="color: #1B2740;"><strong>Aspectos importantes para seleccionar un programa:</strong></span> <span style="color: #DD5C61;"><strong>La malla se posiciona como el aspecto más importante (82%)</strong></span>
 
 
-localidad del programa
+![](img/aspectos-posgrado-1-2.png)
+
+<span style="color: #1B2740;">Mientras que el prestigio del cuerpo académico del programa (68.5%), la existencia de colaboraciones interdisciplinarias (64%) y el prestigio de la universidad (55.9%) presentan menor relevancia.</span> 
+
+
+
+## 
+
+#### <span style="color: #1B2740;"><strong>Localidad del programa:</strong></span> <span style="color: #DD5C61;"><strong>El 56,8% prefiere un programa ubicado en una universidad en Chile</strong></span>
+
+:::: columns
+::: {.column width="70%"}
+
+
+
+![](img/preferencia-localidad-1.png)
+:::
+::: {.column width="30%"}
+
+<span style="color: #1B2740;"> De quienes contestaron preferir estudiar en Chile, no tenían preferencia o prefirieron no responder, 100 personas **sí elegirían la Universidad de Chile** para realizar estudios de posgrado.</span>  
+
+:::
+::::
+
+##  
+
+#### <span style="color: #1B2740;"><strong>Quiénes prefieren estudiar en la </strong></span> <mark style="background-color: #DD5C61;color: white;"> UChile</mark>
+
+::: {.panel-tabset}
+
+#### Género
+
+![]()
+
+#### Edad
+
+![]()
+
+#### Residencia: Chile
+
+![]()
+
+#### Residencia: Regiones, Chile
+
+![]()
+
+#### Residencia: Comunas RM, Chile
+
+![]()
+
+#### Residencia: País
+
+![]()
+
+#### Nivel educacional
+
+![]()
+
+#### Año de egreso
+
+![]()
+
+#### Ocupación
+
+![]()
+
+:::
+
+##
+
+#### <span style="color: #1B2740;"><strong>Razones por las que se prefiere estudiar en la </strong></span> <mark style="background-color: #DD5C61;color: white;"> UChile</mark>
+
+- El prestigio de la universidad (81%)
+- Me interesa trabajar con alguien o equipo de la institución (41%)
+- Me manejo bien en el idioma en que se dicta (32%)
+- Me permite estar cerca de mi familia o red de apoyo (31%)
+- Me resulta más accesible económicamente (26%)
+- Me conviene por mi trabajo actual (14%) 
 
 
 ##
-razones de estudiar en chile
 
+
+- quienes valoran el prestigio de la univerisdad
+edad promedio de 37 años 
+grafico residencia en chile, las 7 personas que noresiden en el pais consideran esta razon importnate para elegir la uchile. Indicar nacionalidades
+grafico nivel educacional 
+
+
+- a quienes permite estar cerca de sus redes
+- en que trabajan quienes les conviene por su trabajo actual 
+
+
+
+# <span style="color: #1B2740;"><strong>1.2 ¿Qué características se esperan de un programa de *Doctorado*?</strong></span> {data-background-color="#DD5C61"}  
 
 ##
-preferencia uchile + razones 
-
-+ cruce por genero y otras 
-
-
-## <span style="color: #1B2740;"><strong>¿Qué características se esperan de un programa de *Doctorado*?</strong></span> {data-background-color="#DD5C61"}  
-
 aspectos
 
 motivaciones (+ cruce con quienes les interesa la uchile)
@@ -99,10 +198,11 @@ elementos
 tematicas 
 cruce por genero
 
-# <span style="color: white;"><strong>Propuesta de programa</strong></span> {data-background-color="#1B2740"}
+# <span style="color: white;"><strong> 2. Propuesta de programa</strong></span> {data-background-color="#1B2740"}
 
-## <span style="color: #1B2740;"><strong>¿Cuánto interes genera la propuesta?</strong></span> {data-background-color="#DD5C61"} 
+# <span style="color: #1B2740;"><strong>2.1 ¿Cuánto interes genera la propuesta?</strong></span> {data-background-color="#DD5C61"} 
 
+##
 
 ::: columns
 ::: {.column width="50%"}
@@ -119,18 +219,63 @@ cruce por genero
 :::
 
 ::: {.column width="50%"}
-% interes 
+![](img/interes-1.png)
 :::
 :::
 
-## <span style="color: #1B2740;"><strong>¿A quienes les interesa la propuesta?</strong></span> {data-background-color="#DD5C61"} 
+# <span style="color: #1B2740;"><strong>2.2 ¿A quienes les interesa la propuesta?</strong></span> {data-background-color="#DD5C61"} 
 
-cruce var interes con edad, genero, residencia, nivel educacional y motivaciones 
 
-cruce var matricula 
+##
 
-## <span style="color: #1B2740;"><strong>Características de la propuesta</strong></span> {data-background-color="#DD5C61"}  
+#### <span style="color: #1B2740;"><strong> Mujeres, de x años, ... </strong></span>
+
+
+::: {.panel-tabset}
+
+#### Género
+
+![]()
+
+#### Edad
+
+![]()
+
+#### Residencia: Chile
+
+![]()
+
+#### Residencia: Regiones, Chile
+
+![]()
+
+#### Residencia: Comunas RM, Chile
+
+![]()
+
+#### Residencia: País
+
+![]()
+
+#### Nivel educacional
+
+![]()
+
+#### Año de egreso
+
+![]()
+
+#### Ocupación
+
+![]()
+
+:::
+
+# <span style="color: #1B2740;"><strong>2.3 Características de la propuesta</strong></span> {data-background-color="#DD5C61"}  
 
 ## 
 comentarios relevantes 
 
+## 
+
+Link al reporte completo 
