@@ -131,7 +131,7 @@ editor:
 
 ##  
 
-#### <span style="color: #1B2740;"><strong>Quiénes prefieren estudiar en la </strong></span> <mark style="background-color: #DD5C61;color: white;"> UChile:</mark> <br> <br> <span style="color: #1B2740;"> <span style="color: #DD5C61;"><strong>43 cuentan con estudios de Magíster</strong></span>, 36 con título/licenciatura, 14 con estudios de Doctorado y 7 con educación media completa. Con un promedio de año de egreso: 2018.</span> <br> <br> <span style="color: #1B2740;"> <span style="color: #DD5C61;"><strong>42 trabajan en una Universidad</strong></span>, 19 no trabajan, 10 trabajan en el Estado o Municipalidad y 9 en alguna empresa privada.</span> <br> <br> <span style="color: #1B2740;"> Mientras que 12 residen en el extranjero: 4 en **Ecuador**, 3 en **Argentina**, 2 en **España**, 1 en **Sudáfrica**, 1 em **Italia** y 1 en **Colombia**</span> 
+#### <span style="color: #1B2740;"><strong>Quiénes prefieren estudiar en la </strong></span> <mark style="background-color: #DD5C61;color: white;"> UChile:</mark> <br> <br> <span style="color: #1B2740;"> <span style="color: #DD5C61;"><strong>43 cuentan con estudios de Magíster</strong></span>, 36 con título/licenciatura, 14 con estudios de Doctorado y 7 con educación media completa. Con un promedio de año de egreso: 2018.</span> <br> <br> <span style="color: #1B2740;"> <span style="color: #DD5C61;"><strong>42 trabajan en una Universidad</strong></span>, 19 no trabajan, 10 trabajan en el Estado o Municipalidad y 9 en alguna empresa privada.</span> <br> <br> <span style="color: #1B2740;"> Mientras que 12 residen en el extranjero: 4 en **Ecuador**, 3 en **Argentina**, 2 en **España**, 1 en **Sudáfrica**, 1 en **Italia** y 1 en **Colombia**</span> 
 
 
 
