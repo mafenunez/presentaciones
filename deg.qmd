@@ -44,7 +44,7 @@ editor:
 ------------------------------------------------------------------------
 
 
--- de septiembre de 2026
+23 de septiembre de 2026
 :::
 ::::
 
@@ -116,87 +116,74 @@ editor:
 
 ##  
 
-#### <span style="color: #1B2740;"><strong>Quiénes prefieren estudiar en la </strong></span> <mark style="background-color: #DD5C61;color: white;"> UChile</mark>
+#### <span style="color: #1B2740;"><strong>Quiénes prefieren estudiar en la </strong></span> <mark style="background-color: #DD5C61;color: white;"> UChile:</mark> <br><span style="color: #DD5C61;"><strong>De las 100 personas, 82 son mujeres, tienen, en promedio, 38 años y **88 residen en Chile**</strong></span>
 
-::: {.panel-tabset}
 
-#### Género
+![](img/uch-reg.png)
 
-![]()
 
-#### Edad
+##  
 
-![]()
+#### <span style="color: #1B2740;"><strong>Quiénes prefieren estudiar en la </strong></span> <mark style="background-color: #DD5C61;color: white;"> UChile:</mark> <br> <span style="color: #DD5C61;"><strong>52 residen en la RM</strong></span>
 
-#### Residencia: Chile
+![](img/uch-com.png)
 
-![]()
 
-#### Residencia: Regiones, Chile
+##  
 
-![]()
+#### <span style="color: #1B2740;"><strong>Quiénes prefieren estudiar en la </strong></span> <mark style="background-color: #DD5C61;color: white;"> UChile:</mark> <br> <br> <span style="color: #1B2740;"> <span style="color: #DD5C61;"><strong>43 cuentan con estudios de Magíster</strong></span>, 36 con título/licenciatura, 14 con estudios de Doctorado y 7 con educación media completa. Con un promedio de año de egreso: 2018.</span> <br> <br> <span style="color: #1B2740;"> <span style="color: #DD5C61;"><strong>42 trabajan en una Universidad</strong></span>, 19 no trabajan, 10 trabajan en el Estado o Municipalidad y 9 en alguna empresa privada.</span> <br> <br> <span style="color: #1B2740;"> Mientras que 12 residen en el extranjero: 4 en **Ecuador**, 3 en **Argentina**, 2 en **España**, 1 en **Sudáfrica**, 1 em **Italia** y 1 en **Colombia**</span> 
 
-#### Residencia: Comunas RM, Chile
 
-![]()
 
-#### Residencia: País
-
-![]()
-
-#### Nivel educacional
-
-![]()
-
-#### Año de egreso
-
-![]()
-
-#### Ocupación
-
-![]()
-
-:::
 
 ##
 
 #### <span style="color: #1B2740;"><strong>Razones por las que se prefiere estudiar en la </strong></span> <mark style="background-color: #DD5C61;color: white;"> UChile</mark>
 
-- El prestigio de la universidad (81%)
-- Me interesa trabajar con alguien o equipo de la institución (41%)
-- Me manejo bien en el idioma en que se dicta (32%)
-- Me permite estar cerca de mi familia o red de apoyo (31%)
-- Me resulta más accesible económicamente (26%)
-- Me conviene por mi trabajo actual (14%) 
+![](img/razones-uchile-1.png)
 
 
-##
-
-
-- quienes valoran el prestigio de la univerisdad
-edad promedio de 37 años 
-grafico residencia en chile, las 7 personas que noresiden en el pais consideran esta razon importnate para elegir la uchile. Indicar nacionalidades
-grafico nivel educacional 
-
-
-- a quienes permite estar cerca de sus redes
-- en que trabajan quienes les conviene por su trabajo actual 
 
 
 
 # <span style="color: #1B2740;"><strong>1.2 ¿Qué características se esperan de un programa de *Doctorado*?</strong></span> {data-background-color="#DD5C61"}  
 
 ##
-aspectos
 
-motivaciones (+ cruce con quienes les interesa la uchile)
+:::: columns
+::: {.column width="75%"}
+
+![](img/aspectos-deg-1.png)
+:::
+
+::: {.column width="25%"}
+
+##### <span style="color: #1B2740;"><strong>Motivación principal por la que le interesaía estudiar un programa:</strong></span> <span style="color: #DD5C61;"><strong>Desarrollar una agenda de investigación propia (42.1%) y actualizarse en debates actuales en los Estudios de Género (34.7%)</strong></span>
+:::
+::::
+
+
 
 ##
-elementos 
+#### <span style="color: #1B2740;"><strong>Elementos que debería privilegiar el programa en sus cursos:</strong></span> <span style="color: #DD5C61;"><strong>Las perspectivas teóricas de género se posicionan como el elemento que debería privilegiarse mucho (82.1%)</strong></span>
+ 
+![](img/elementos.png)
 
 ## 
-tematicas 
-cruce por genero
+#### <span style="color: #1B2740;"><strong>Temáticas que deberían ser abordadas por los cursos:</strong></span> <span style="color: #DD5C61;"><strong> Enfoques críticos en teoría feminista y de género (81.1%), Políticas públicas de género (73.7%) y Epistemologias feministas (71.6%) son las tres temáticas más mencionadas  </strong></span>
+
+Seguidas por: 
+
+| Tema                                            | N  | %     |
+|:------------------------------------------------|---:|------:|
+| Género, sexualidades y diversidades             | 63 | 66.3% |
+| Cambios sociales y género                       | 57 | 60.0% |
+| Trabajo, economía y cuidados                    | 57 | 60.0% |
+| Violencias de género                            | 56 | 58.9% |
+| Decolonialidad                                  | 55 | 57.9% |
+| Género, educación y producción de conocimientos | 54 | 56.8% |
+| Educación no sexista y justicia social          | 53 | 55.8% |
+
 
 # <span style="color: white;"><strong> 2. Propuesta de programa</strong></span> {data-background-color="#1B2740"}
 
@@ -225,57 +212,73 @@ cruce por genero
 
 # <span style="color: #1B2740;"><strong>2.2 ¿A quienes les interesa la propuesta?</strong></span> {data-background-color="#DD5C61"} 
 
-
 ##
 
-#### <span style="color: #1B2740;"><strong> Mujeres, de x años, ... </strong></span>
+### <span style="color: #1B2740;"> **Mujeres** (85.9%), de una edad promedio de **36** **años**, residentes en **Chile** (88.2%), mayoritariamente en las comunas de **Providencia** (23.9%) y **Ñuñoa** (17.4%), con estudios de **Magíster** (51.8%), egresadas en promedio en el año **2019** y que trabajan actualmente vinculadas a una **universidad** (42.4%).  <br> <br> Mientras quienes residen en el extranjero son de **España** (n = 2), **Ecuador** (n = 2), **Argentina** (n = 2), **Sudáfrica** (n = 1), **Perú** (n = 1), **Italia** (n = 1) y **Colombia** (n = 1). </span> 
 
+# <span style="color: #1B2740;"><strong>2.3 Características de la propuesta</strong></span> {data-background-color="#DD5C61"} 
 
-::: {.panel-tabset}
+## 
+:::: columns
+::: {.column width="75%"}
 
-#### Género
-
-![]()
-
-#### Edad
-
-![]()
-
-#### Residencia: Chile
-
-![]()
-
-#### Residencia: Regiones, Chile
-
-![]()
-
-#### Residencia: Comunas RM, Chile
-
-![]()
-
-#### Residencia: País
-
-![]()
-
-#### Nivel educacional
-
-![]()
-
-#### Año de egreso
-
-![]()
-
-#### Ocupación
-
-![]()
-
+![](img/modalidad-1.png)
 :::
 
-# <span style="color: #1B2740;"><strong>2.3 Características de la propuesta</strong></span> {data-background-color="#DD5C61"}  
+::: {.column width="25%"}
 
-## 
-comentarios relevantes 
+##### <span style="color: #1B2740;"><strong>Horario preferido encaso de que las clases fueran presenciales:</strong></span> <span style="color: #DD5C61;"><strong>   En las tardes, después del horario de oficina (59.2%), el viernes en la tarde y sábado en la mañana (56.3%) y el sábado todo el día (32.4%) </strong></span>
+:::
+::::
 
-## 
+## <span style="color: #1B2740;"><strong>Comentarios</strong></span>
 
-Link al reporte completo 
+Tesis 
+
+>Me parece importante que el programa explicite las líneas de investigación disponibles y el cuerpo académico que podría supervisarlas, ya que la compatibilidad entre el proyecto doctoral y la experiencia de quien guía la investigación es un factor central al momento de elegir un doctorado.
+
+>Espero que sea un programa que desde un inicio esté centrado en el desarrollo de la tesis de doctorado, con cursos que te ayuden para la construcción de la investigación. Teniendo claro los giros de paradigma en el género. Dicho esto, además de ver autoras clásicas occidentales, me encantaría aprender en detalle autoras latinoamericanas y que el doctorado esté centrado desde un posicionamiento en los conocimientos desarrollados por y para América Latina. Siguiendo con ello, creo fielmente que nuevas metodologías (tanto cualitativas como cuantitativas) desde una mirada crítica y feminista sería crucial para observar problemas de investigación.
+
+## <span style="color: #1B2740;"><strong>Comentarios</strong></span>
+
+Propuesta estructura 
+
+>Tengo una idea distinta de lo que creo que es un Doctorado; pienso que este puede ser de dos años, teniendo en cuenta un Magister anterior, la idea sería plantear un Doctorado de 2 años, donde el primero es Académico teórico y el siguiente práctico con un caso a resolver en esos dos años, por dos alumnos, al cabo del cual cuando se resolvió, el alumno se graduará sólo si el caso de práctica tuvo un avance con cumplimiento de al menos un 50%. Así se podría utilizar en un caso real y tendría como resultado dos alumnos con 100% y resolviendo una problemática que entre dos personas, pueden de mejor forma solucionar y ser económicamente rentable para ambos.
+
+
+## <span style="color: #1B2740;"><strong>Comentarios</strong></span>
+
+Exériencias de colaboracion 
+
+>Es muy valioso el foco interdisciplinario del programa, tanto en herramientas de investigación como en contenidos formativos. También es valioso el intercambio de experiencias con otras universidades, nacionales y extranjeras en un curriculum más flexible.
+
+Costo 
+
+>Me gustaría conocer el costo del Doctorado ya que pareciera ser la mayor dificultad y con ello, saber si contará con programas de ayudas financieras para que sea más asequible.
+
+
+
+## <span style="color: #1B2740;"><strong>Comentarios</strong></span>
+
+Temáticas 
+
+>Me faltó ver alguna referencia explícita a América Latina, además de abrir espacio a fortalecer herramientas profesionales (más allá de las políticas públicas).
+
+>Sería óptimo incluir formación en áreas de urbanismo y economía desde perspectiva de género, ya que son ámbitos del conocimientos dominados por enfoques neoliberales y centrados en la producción
+
+## <span style="color: #1B2740;"><strong>Comentarios</strong></span>
+
+Modalidad 
+
+>También creo necesario evaluar metodologías de aprendizaje a distancia, híbiridas, etc, considerando personas que viven en regiones y no pueden renunciar a su trabajo para ir a santiago permanentemente a realizar el doctorado
+
+>Al ser de región, no tenemos las mismas posibilidades y accesos para estudiar un doctorado, menos en una región minera como Atacama. Los altos costos también perjudican poder acceder a este tipo de estudios y creo que hay mucho que contar y aportar desde los territorios. Ojalá existan becas y piensen en modalidades mas accesibles.
+
+
+
+
+
+
+# [Link al reporte completo](https://mafenunez.github.io/book-deg) {data-background-color="#1B2740"}
+
+
