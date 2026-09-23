@@ -64,13 +64,13 @@ editor:
 ::: {.column width="50%"}
 2. Propuesta 
 
-2.1 ¿Cuánto interes genera la propuesta?
+2.1 ¿Cuánto interés genera la propuesta?
 <br>
 <br>
-2.2 ¿A quienes les interesa la propuesta? 
+2.2 ¿A quiénes les interesa la propuesta? 
 <br>
 <br>
-2.3 Caracteristicas de la propuesta
+2.3 Características de la propuesta
 :::
 ::::
 
@@ -187,7 +187,7 @@ Seguidas por:
 
 # <span style="color: white;"><strong> 2. Propuesta de programa</strong></span> {data-background-color="#1B2740"}
 
-# <span style="color: #1B2740;"><strong>2.1 ¿Cuánto interes genera la propuesta?</strong></span> {data-background-color="#DD5C61"} 
+# <span style="color: #1B2740;"><strong>2.1 ¿Cuánto interés genera la propuesta?</strong></span> {data-background-color="#DD5C61"} 
 
 ##
 
@@ -210,11 +210,11 @@ Seguidas por:
 :::
 :::
 
-# <span style="color: #1B2740;"><strong>2.2 ¿A quienes les interesa la propuesta?</strong></span> {data-background-color="#DD5C61"} 
+# <span style="color: #1B2740;"><strong>2.2 ¿A quiénes les interesa la propuesta?</strong></span> {data-background-color="#DD5C61"} 
 
 ##
 
-### <span style="color: #1B2740;"> **Mujeres** (85.9%), de una edad promedio de **36** **años**, residentes en **Chile** (88.2%), mayoritariamente en las comunas de **Providencia** (23.9%) y **Ñuñoa** (17.4%), con estudios de **Magíster** (51.8%), egresadas en promedio en el año **2019** y que trabajan actualmente vinculadas a una **universidad** (42.4%).  <br> <br> Mientras quienes residen en el extranjero son de **España** (n = 2), **Ecuador** (n = 2), **Argentina** (n = 2), **Sudáfrica** (n = 1), **Perú** (n = 1), **Italia** (n = 1) y **Colombia** (n = 1). </span> 
+### <span style="color: #1B2740;"> **Mujeres** (85.9%), de una edad promedio de **36** **años**, residentes en **Chile** (88.2%), mayoritariamente en las comunas de **Providencia** (23.9%) y **Ñuñoa** (17.4%), con estudios de **Magíster** (51.8%), egresadas, en promedio, en el año **2019** y que actualmente trabajan vinculadas a una **universidad** (42.4%).  <br> <br> Mientras que quienes residen en el extranjero son de **España** (n = 2), **Ecuador** (n = 2), **Argentina** (n = 2), **Sudáfrica** (n = 1), **Perú** (n = 1), **Italia** (n = 1) y **Colombia** (n = 1). </span> 
 
 # <span style="color: #1B2740;"><strong>2.3 Características de la propuesta</strong></span> {data-background-color="#DD5C61"} 
 
@@ -227,13 +227,13 @@ Seguidas por:
 
 ::: {.column width="25%"}
 
-##### <span style="color: #1B2740;"><strong>Horario preferido encaso de que las clases fueran presenciales:</strong></span> <span style="color: #DD5C61;"><strong>   En las tardes, después del horario de oficina (59.2%), el viernes en la tarde y sábado en la mañana (56.3%) y el sábado todo el día (32.4%) </strong></span>
+##### <span style="color: #1B2740;"><strong>Horario preferido en caso de que las clases fueran presenciales:</strong></span> <span style="color: #DD5C61;"><strong>   En las tardes, después del horario de oficina (59.2%), el viernes en la tarde y sábado en la mañana (56.3%) y el sábado todo el día (32.4%) </strong></span>
 :::
 ::::
 
 ## <span style="color: #1B2740;"><strong>Comentarios</strong></span>
 
-Tesis 
+<span style="color: #DD5C61;"><strong>Tesis</strong></span> 
 
 >Me parece importante que el programa explicite las líneas de investigación disponibles y el cuerpo académico que podría supervisarlas, ya que la compatibilidad entre el proyecto doctoral y la experiencia de quien guía la investigación es un factor central al momento de elegir un doctorado.
 
@@ -241,18 +241,18 @@ Tesis
 
 ## <span style="color: #1B2740;"><strong>Comentarios</strong></span>
 
-Propuesta estructura 
+<span style="color: #DD5C61;"><strong>Propuesta de estructura</strong></span> 
 
 >Tengo una idea distinta de lo que creo que es un Doctorado; pienso que este puede ser de dos años, teniendo en cuenta un Magister anterior, la idea sería plantear un Doctorado de 2 años, donde el primero es Académico teórico y el siguiente práctico con un caso a resolver en esos dos años, por dos alumnos, al cabo del cual cuando se resolvió, el alumno se graduará sólo si el caso de práctica tuvo un avance con cumplimiento de al menos un 50%. Así se podría utilizar en un caso real y tendría como resultado dos alumnos con 100% y resolviendo una problemática que entre dos personas, pueden de mejor forma solucionar y ser económicamente rentable para ambos.
 
 
 ## <span style="color: #1B2740;"><strong>Comentarios</strong></span>
 
-Exériencias de colaboracion 
+<span style="color: #DD5C61;"><strong>Experiencias de colaboración</strong></span> 
 
 >Es muy valioso el foco interdisciplinario del programa, tanto en herramientas de investigación como en contenidos formativos. También es valioso el intercambio de experiencias con otras universidades, nacionales y extranjeras en un curriculum más flexible.
 
-Costo 
+<span style="color: #DD5C61;"><strong>Costo</strong></span> 
 
 >Me gustaría conocer el costo del Doctorado ya que pareciera ser la mayor dificultad y con ello, saber si contará con programas de ayudas financieras para que sea más asequible.
 
@@ -260,7 +260,7 @@ Costo
 
 ## <span style="color: #1B2740;"><strong>Comentarios</strong></span>
 
-Temáticas 
+<span style="color: #DD5C61;"><strong>Temáticas</strong></span> 
 
 >Me faltó ver alguna referencia explícita a América Latina, además de abrir espacio a fortalecer herramientas profesionales (más allá de las políticas públicas).
 
@@ -268,7 +268,7 @@ Temáticas
 
 ## <span style="color: #1B2740;"><strong>Comentarios</strong></span>
 
-Modalidad 
+<span style="color: #DD5C61;"><strong>Modalidad</strong></span> 
 
 >También creo necesario evaluar metodologías de aprendizaje a distancia, híbiridas, etc, considerando personas que viven en regiones y no pueden renunciar a su trabajo para ir a santiago permanentemente a realizar el doctorado
 
